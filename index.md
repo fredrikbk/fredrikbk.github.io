@@ -1,8 +1,7 @@
 ---
+title: Fredrik Kjolstad
 layout: home
 ---
-
-# Fredrik Kjolstad
 
 ![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"}
 PhD Candidate<br/>
@@ -20,6 +19,8 @@ unstructured meshes with linear and tensor algebra.
 
 ## Publications
 
+<!--
 ## Awards
 
 ## Press
+-->
