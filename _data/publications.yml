@@ -1,1 +1,323 @@
+arxiv18:
+  title: "Sparse Tensor Algebra Optimizations with Workspaces"
+  abstract: "This paper shows how to extend sparse tensor algebra com-
+  pilers to introduce temporary tensors, called workspaces, to avoid
+  the inefficiencies of accessing sparse data structures. We develop
+  an intermediate representation (IR) for tensor operations called
+  concrete index notation, that specifies when sub-computations occur
+  and where they are stored. We then describe the workspace
+  transformation in this IR, how to programmatically invoke it, and
+  how the IR is compiled to sparse code. Finally, we show how the
+  transformation can be used to optimize sparse tensor kernels,
+  including sparse matrix multiplication, sparse tensor addition,
+  and the matricized tensor times Khatri-Rao product (MTTKRP).  Our
+  results show that the workspace transformation brings the
+  performance of these kernels on par with hand-optimized
+  implementations. For example, sparse matrix multiplication and
+  MTTKRP with sparse output were not supported by prior tensor algebra
+  compilers and the performance of MTTKRP with dense output improves
+  by up to 35%."
+  venue: "arXiv technical report"
+  year: "2018"
+  month: "February"
+  authors:
+    - kjolstad
+    - ahrens
+    - kamil
+    - amarasinghe
 
+oopsla18:
+  title: "Format Abstraction for Sparse Publications Tensor Algebra Compilers"
+  abstract: "This paper shows how to build a sparse tensor algebra
+  compiler that is agnostic to tensor formats (data layouts). We
+  develop an interface that describes formats in terms of their
+  capabilities and properties, and show how to build a modular code
+  generator where new formats can be added as plugins. We then
+  describe six implementations of the interface that compose to form
+  the dense, CSR/CSF, COO, DIA, ELL, and HASH tensor formats and
+  countless variants thereof. With these implementations at hand, our
+  code generator can generate code to compute any tensor algebra
+  expression on any combination of the aforementioned formats.  To
+  demonstrate our technique, we have implemented it in the taco tensor
+  algebra compiler. Our modular code generator design makes it simple
+  to add support for new tensor formats, and the performance of the
+  generated code is competitive with hand-optimized implementations.
+  Furthermore, by extending taco to support a wider range of formats
+  specialized for different application and data characteristics, we
+  can improve end-user application performance. For example, if input
+  data is provided in the COO format, our technique allows computing a
+  single matrix-vector multiplication directly with the data in COO,
+  which is up to 3.6x faster than by first converting the data to
+  CSR."
+  venue: "Proceedings of the ACM on Programming Languages, Volume 2, Issue OOPSLA"
+  year: "2018"
+  month: "October"
+  authors:
+    - chou
+    - kjolstad
+    - amarasinghe
+
+ase17:
+  title: "taco: A Tool to Generate Tensor Algebra Kernels"
+  abstract: "Tensor algebra is an important computational abstraction
+  that is increasingly used in data analytics, machine learning,
+  engineering, and the physical sciences. However, the number of
+  tensor expressions is unbounded, which makes it hard to develop and
+  optimize libraries. Furthermore, the tensors are often sparse (most
+  components are zero), which means the code has to traverse
+  compressed formats. To support programmers we have developed taco, a
+  code generation tool that generates dense, sparse, and mixed kernels
+  from tensor algebra expressions. This paper describes the taco web
+  and command-line tools and discusses the benefits of a code
+  generator over a traditional library. See also the demo video at
+  tensor-compiler.org/ase2017."
+  venue: "32th IEEE/ACM International Conference on Automated Software Engineering (tools paper and demo)"
+  year: "2017"
+  month: "November"
+  authors:
+    - kjolstad
+    - chou
+    - lugato
+    - kamil
+    - amarasinghe
+
+oopsla17:
+  title: "The Tensor Algebra Compiler" 
+  abstract: "Tensor algebra is a powerful tool with applications in
+  machine learning, data analytics, engineering and the physical
+  sciences. Tensors are often sparse and compound operations must
+  frequently be computed in a single kernel for performance and to
+  save memory. Programmers are left to write kernels for every
+  operation of interest, with different mixes of dense and sparse
+  tensors in different formats. The combinations are infinite, which
+  makes it impossible to manually implement and optimize them all.
+  This paper introduces the first compiler technique to automatically
+  generate kernels for any compound tensor algebra operation on dense
+  and sparse tensors. The technique is implemented in a C++ library
+  called taco. Its performance is competitive with best-in-class
+  hand-optimized kernels in popular libraries, while supporting far
+  more tensor operations." 
+  venue: "Proceedings of the ACM on Programming Languages, Volume 1, Issue OOPSLA"
+  year: "2017"
+  month: "October"
+  award: "Distinguished Paper Award" # (6/66)
+  authors:
+    - kjolstad 
+    - kamil
+    - chou
+    - lugato
+    - amarasinghe
+  paper: http://groups.csail.mit.edu/commit/papers/2017/tensor-compiler-techreport.pdf
+
+tog16a:
+  title: "Simit: A Language for Physical Simulation"
+  abstract: "With existing programming tools, writing high-performance
+  simulation code is labor intensive and requires sacrificing
+  readability and portability. The alternative is to prototype
+  simulations in a high-level language like Matlab, thereby
+  sacrificing performance. The Matlab programming model naturally
+  describes the behavior of an entire physical system using the
+  language of linear algebra. However, simulations also manipulate
+  individual geometric elements, which are best represented using
+  linked data structures like meshes. Translating between the linked
+  data structures and linear algebra comes at significant cost, both
+  to the programmer and to the machine. High-performance
+  implementations avoid the cost by rephrasing the computation in
+  terms of linked or index data structures, leaving the code
+  complicated and monolithic, often increasing its size by an order of
+  magnitude.
+  <br/>
+  In this article, we present Simit, a new language for physical
+  simulations that lets the programmer view the system both as a
+  linked data structure in the form of a hypergraph and as a set of
+  global vectors, matrices, and tensors depending on what is
+  convenient at any given time. Simit provides a novel assembly
+  construct that makes it conceptually easy and computationally
+  efficient to move between the two abstractions. Using the
+  information pro- vided by the assembly construct, the compiler
+  generates efficient in-place computation on the graph. We
+  demonstrate that Simit is easy to use: a Simit program is typically
+  shorter than a Matlab program; that it is high performance: a
+  Simit program running sequentially on a CPU performs compara- bly to
+  hand-optimized simulations; and that it is portable: Simit programs
+  can be compiled for GPUs with no change to the program, delivering 4
+  to 20x speedups over our optimized CPU code."
+  year: "2016"
+  month: "May"
+  venue: "ACM Transactions on Graphics (presented at SIGGRAPH 2016)"
+  authors:
+    - kjolstad
+    - kamil
+    - ragan-kelley
+    - levin
+    - sueda
+    - chen
+    - vouga
+    - kaufman
+    - kanwar
+    - matusik
+    - amarasinghe
+  paper: http://groups.csail.mit.edu/commit/papers/2016/simit.pdf
+  image: http://groups.csail.mit.edu/commit/papers/2016/simit.jpg
+  movie: https://www.youtube.com/embed/tFlG3Ygpews
+
+tog16b:
+  title: "Why New Programming Languages for Simulation?"
+  abstract: "Simulations are complicated, performance-critical applications
+  that combine sophisticated computer science data structures with advanced
+  mathematical computation. Best practice suggests using optimized linear
+  algebra libraries, yet programmers of high- performance simulations
+  invariably abandon this ideal in order to optimize computation around
+  application data structures.  Getting good performance requires a lot of
+  human effort to manage data layout, vectorize, and parallelize code. And the
+  situation is getting worse. High-performance systems in the near future will
+  need to support concurrent execution on GPUs, multicore CPUs, a host of new
+  architectures, and across distributed systems.
+  <br/>
+  In response to similar trends, graphics researchers have proposed new
+  programming languages to manage and abstract away from hardware complexity.
+  Renderman [Upstill 1989], GPU Shading Languages, Cuda [Nvidia 2008], and more
+  recently Halide [Ragan-Kelley et al. 2013] and Darkroom [Hegarty et al. 2014]
+  are excellent examples. These languages promise considerable reductions in
+  programmer effort, as reflected both by the amount of code that must be
+  written and the degree to which programmers must optimize for specific
+  hardware.  We believe simulation is now primed to move to such programming
+  languages. Although simulation is a complicated domain, we are starting to
+  understand how to represent a large class of simulations with simple,
+  general, and flexible high level programming language concepts built on solid
+  foundations. We believe the ideas behind the relational algebra and modern
+  databases have direct relevance to simulation, and we expect to see similar
+  benefits to those the database community has accrued.
+  <br/>
+  In these proceedings, two such languages are presented: Ebb [Bernstein et al.
+  2016] and Simit [Kjolstad et al. 2016]. These languages were developed
+  independently by two separate groups centered at Stanford and MIT, and we
+  believe they are first steps in a larger roadmap. We will let the articles
+  speak for themselves on the strengths of their different operators and data
+  structures. However, we encourage readers to note the common foundations we
+  will lay out and join us in exploring a fascinating new research direction."
+  venue: "ACM Transactions on Graphics (perspective)"
+  year: "2016"
+  month: "May"
+  authors:
+    - bernstein
+    - kjolstad
+  paper: http://groups.csail.mit.edu/commit/papers/2016/why.pdf
+
+eurompi13:
+  title: "MPI Datatype Processing using Runtime Compilation"
+  abstract: "Data packing before and after communication can make up as much as
+  90% of the communication time on modern computers. Despite MPI's well-defined
+  datatype interface for non-contiguous data access, many codes use manual pack
+  loops for performance reasons. Programmers write access-pattern specific pack
+  loops (e.g., do manual unrolling) for which compilers emit optimized code. In
+  contrast, MPI implementations in use today interpret datatypes at pack time,
+  resulting in high overheads. In this work we explore the effectiveness of
+  using runtime compilation techniques to generate efficient and optimized pack
+  code for MPI datatypes at commit time. Thus, none of the overhead of datatype
+  interpretation is incurred at pack time and pack setup is as fast as calling
+  a function pointer. We have implemented a library called libpack that can be
+  used to compile and (un)pack MPI datatypes. The library optimizes the
+  datatype representation and uses the LLVM framework to produce vectorized
+  machine code for each datatype at commit time. We show several examples of
+  how MPI datatype pack functions benefit from runtime compilation and analyze
+  the performance of compiled pack functions for the data access patterns in
+  many applications. We show that the pack/unpack functions generated by our
+  packing library are seven times faster than those of prevalent MPI
+  implementations for 73% of the datatypes used in MILC and in many cases
+  outperform manual pack loops."
+  venue: "20th European MPI Users' Group Meeting"
+  year: "2013"
+  month: "September"
+  award: "Best Paper Award" # (1/25)
+  authors:
+    - schneider
+    - kjolstad
+    - hoefler
+
+ppopp12:
+  title: "Automatic Datatype Generation and Optimization"
+  abstract: "Many high performance applications spend considerable time packing
+  noncontiguous data into contiguous communication buffers. MPI Datatypes
+  provide an alternative by describing noncontiguous data layouts. This allows
+  sophisticated hardware to retrieve data directly from application data
+  structures. However, packing codes in real-world applications are often
+  complex and specifying equivalent datatypes is difficult, time-consuming, and
+  error prone. We present an algorithm that automates the transformation. We
+  have implemented the algorithm in a tool that transforms packing code to MPI
+  Datatypes, and evaluated it by transforming 90 packing codes from the NAS
+  Parallel Benchmarks. The transformation allows easy porting of applications
+  to new machines that benefit from datatypes, thus improving programmer
+  productivity."
+  venue: "17th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (short paper)"
+  year: "2012"
+  month: "February"
+  authors:
+    - kjolstad
+    - hoefler
+    - snir
+
+icse11:
+  title: "Transformation for Class Immutability"
+  abstract: "It is common for object-oriented programs to have both mutable and
+  immutable classes. Immutable classes simplify programing because the
+  programmer does not have to reason about side-effects. Sometimes programmers
+  write immutable classes from scratch, other times they transform mutable into
+  immutable classes. To transform a mutable class, programmers must find all
+  methods that mutate its transitive state and all objects that can enter or
+  escape the state of the class. The analyses are non-trivial and the rewriting
+  is tedious. Fortunately, this can be automated.
+  <br/>
+  We present an algorithm and a tool, Immutator, that enables the programmer to
+  safely transform a mutable class into an immutable class. Two case studies
+  and one controlled experiment show that Immutator is useful. It (i) reduces
+  the burden of making classes immutable, (ii) is fast enough to be used
+  interactively, and (iii) is much safer than manual transformations."
+  venue: "33rd International Conference on Software Engineering"
+  year: "2011"
+  month: "May"
+  authors:
+    - kjolstad
+    - dig
+    - acevedo
+    - snir
+
+cap10:
+  title: "Bringing the HPC Programmer's IDE into the 21st Century through Refactoring"
+  abstract: "Programming tools for High Performance Computing are lagging
+  behind the tools that have improved the productivity of desktop programmers.
+  The increasing complexity of HPC codes, the growing number of cores that they
+  must utilize, their long life-span, and the plethora of desirable source code
+  optimizations and hardware platforms make HPC codes hard to maintain.
+  Refactoring tools can enable HPC programmers to explore the space of
+  performance optimizations and parallel constructs safely and efficiently.
+  <br/>
+  This position paper presents our view on how HPC programming tools should
+  evolve, a growing catalog of refactorings for HPC programmers, and reports on
+  our initial effort to automate some of these refactorings."
+  venue: "SPLASH 2010 Workshop on Concurrency for the Application Programmer"
+  year: 2010
+  month: "October"
+  authors:
+    - kjolstad
+    - dig
+    - snir
+
+paraplop10:
+  title: "Ghost Cell Pattern"
+  abstract: "Many problems consist of a structured grid of points that are
+  updated repeatedly based on the values of a fixed set of neighboring points
+  in the same grid. To parallelize these problems we can geometrically divide
+  the grid into chunks that are processed by different processors. One
+  challenge with this approach is that the update of points at the periphery of
+  a chunk requires values from neighboring chunks. These are often located in
+  remote memory belonging to different processes. The naive implementation
+  results in a lot of time spent on communication leaving less time for useful
+  computation. By using the Ghost Cell Pattern communication overhead can be
+  reduced. This results in faster time to completion."
+  venue: "2nd Annual Workshop on Parallel Programming Patterns"
+  year: "2010"
+  month: "March"
+  authors:
+    - kjolstad
+    - snir

@@ -19,8 +19,33 @@ unstructured meshes with linear and tensor algebra.
 
 ## Publications
 
+{% for publication_keyval in site.data.publications %}
+{%- assign publication = publication_keyval[1] -%}
+**{{ publication.title }}**<br/>
+{%- for author in publication.authors -%}
+{%- if forloop.last == true and forloop.length > 1 %}
+and
+{%- endif %}
+{%- if author == "kjolstad" %}
+{{ site.data.authors[author].name }}
+{%- else %}
+[{{ site.data.authors[author].name }}]({{- site.data.authors[author].site }})
+{%- endif -%}
+{%- if forloop.last == false and forloop.length > 2 -%}
+,
+{%- endif %}
+{%- endfor -%}<br/>
+*{{ publication.venue }}*, {{ publication.month }} {{ publication.year }} <br/>
+{% if publication.award -%}
+***{{ publication.award }}***<br/>
+{%- endif -%}
+<br/>
+{% endfor %}
+
+<!--
+## Press
+-->
+
 <!--
 ## Awards
-
-## Press
 -->
