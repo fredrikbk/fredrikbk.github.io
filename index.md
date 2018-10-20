@@ -43,12 +43,10 @@ unstructured meshes with linear and tensor algebra.
           <i><b>{{ publication.award }}</b></i><br/>
         {%- endif -%}
       </td>
-      <td>
       <td valign="top" width="20">
         {% if publication.pdf %}
           <a href="{{ publication.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
         {% endif %}
-      </td>
       </td>
     </tr>
 {% endfor %}
