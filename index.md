@@ -19,7 +19,7 @@ unstructured meshes with linear and tensor algebra.
 
 
 ## Publications
-<table>
+<table border="0">
   {% for publication_keyval in site.data.publications %}
     <tr>
       {%- assign publication = publication_keyval[1] -%}
