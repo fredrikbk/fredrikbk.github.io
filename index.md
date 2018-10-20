@@ -11,11 +11,14 @@ Massachusetts Institute of Technology<br/>
 <fred@csail.mit.edu>
 <br/><br/><br/><br/><br/>
 
-I am a PhD candidate at MIT (graduating summer 2019).  I work on the
-[Taco compiler](http://tensor-compiler.org) for computing dense and
-sparse tensor expressions and the [Simit programming
+I am a PhD candidate at MIT.  I work on the [Taco
+compiler](http://tensor-compiler.org) for computing dense and sparse
+tensor expressions and the [Simit programming
 language](http://simit-lang.org) for computing on graphs and
-unstructured meshes with linear and tensor algebra.
+unstructured meshes with linear and tensor algebra.  My research
+interests include compilers, programming models and languages,
+performance engineering, parallel computing, and programmer
+productivity.
 
 
 ## Publications
