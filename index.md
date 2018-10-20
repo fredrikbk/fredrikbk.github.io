@@ -47,6 +47,9 @@ unstructured meshes with linear and tensor algebra.
         {% if publication.pdf %}
           <a href="{{ publication.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
         {% endif %}
+        {% if publication.movie %}
+          <a href="{{ publication.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
+        {% endif %}
       </td>
     </tr>
 {% endfor %}

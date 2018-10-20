@@ -83,6 +83,7 @@ ase17:
     - kamil
     - amarasinghe
   pdf: /assets/publications/taco-tools.pdf
+  movie: https://youtu.be/eE38PC2ctFs
 
 oopsla17:
   title: "The Tensor Algebra Compiler" 
@@ -111,6 +112,7 @@ oopsla17:
     - lugato
     - amarasinghe
   pdf: /assets/publications/taco.pdf
+  movie: https://youtu.be/Kffbzf9etLE 
 
 tog16a:
   title: "Simit: A Language for Physical Simulation"
@@ -161,8 +163,8 @@ tog16a:
     - matusik
     - amarasinghe
   pdf: /assets/publications/simit.pdf
+  movie: https://youtu.be/raPkxhHy5ro
   image: http://groups.csail.mit.edu/commit/papers/2016/simit.jpg
-  movie: https://www.youtube.com/embed/tFlG3Ygpews
 
 tog16b:
   title: "Why New Programming Languages for Simulation?"
