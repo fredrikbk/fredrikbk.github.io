@@ -17,30 +17,42 @@ sparse tensor expressions and the [Simit programming
 language](http://simit-lang.org) for computing on graphs and
 unstructured meshes with linear and tensor algebra.
 
-## Publications
 
-{% for publication_keyval in site.data.publications %}
-{%- assign publication = publication_keyval[1] -%}
-**{{ publication.title }}**<br/>
-{%- for author in publication.authors -%}
-{%- if forloop.last == true and forloop.length > 1 %}
-and
-{%- endif %}
-{%- if author == "kjolstad" %}
-{{ site.data.authors[author].name }}
-{%- else %}
-[{{ site.data.authors[author].name }}]({{- site.data.authors[author].site }})
-{%- endif -%}
-{%- if forloop.last == false and forloop.length > 2 -%}
-,
-{%- endif %}
-{%- endfor -%}<br/>
-*{{ publication.venue }}*, {{ publication.month }} {{ publication.year }} <br/>
-{% if publication.award -%}
-***{{ publication.award }}***<br/>
-{%- endif -%}
-<br/>
+## Publications
+<table>
+  {% for publication_keyval in site.data.publications %}
+    <tr>
+      {%- assign publication = publication_keyval[1] -%}
+      <td>
+        <b>{{ publication.title }}</b><br/>
+        {%- for author in publication.authors -%}
+          {%- if forloop.last == true and forloop.length > 1 %}
+            and
+          {%- endif %}
+          {%- if author == "kjolstad" %}
+            {{ site.data.authors[author].name }}
+          {%- else %}
+            <a href="{{- site.data.authors[author].site }}">{{ site.data.authors[author].name }}</a>
+          {%- endif -%}
+          {%- if forloop.last == false and forloop.length > 2 -%}
+            ,
+          {%- endif %}
+        {%- endfor -%}<br/>
+        <i>{{ publication.venue }}</i>, {{ publication.month }} {{ publication.year }} <br/>
+        {% if publication.award %}
+          <i><b>{{ publication.award }}</b></i><br/>
+        {%- endif -%}
+      </td>
+      <td>
+      <td valign="top" width="20">
+        {% if publication.pdf %}
+          <a href="{{ publication.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+        {% endif %}
+      </td>
+      </td>
+    </tr>
 {% endfor %}
+</table>
 
 <!--
 ## Press

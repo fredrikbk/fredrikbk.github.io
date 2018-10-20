@@ -25,6 +25,7 @@ arxiv18:
     - ahrens
     - kamil
     - amarasinghe
+  pdf: /assets/publications/taco-workspaces.pdf
 
 oopsla18:
   title: "Format Abstraction for Sparse Publications Tensor Algebra Compilers"
@@ -56,6 +57,7 @@ oopsla18:
     - chou
     - kjolstad
     - amarasinghe
+  pdf: /assets/publications/taco-formats.pdf
 
 ase17:
   title: "taco: A Tool to Generate Tensor Algebra Kernels"
@@ -80,6 +82,7 @@ ase17:
     - lugato
     - kamil
     - amarasinghe
+  pdf: /assets/publications/taco-tools.pdf
 
 oopsla17:
   title: "The Tensor Algebra Compiler" 
@@ -107,7 +110,7 @@ oopsla17:
     - chou
     - lugato
     - amarasinghe
-  paper: http://groups.csail.mit.edu/commit/papers/2017/tensor-compiler-techreport.pdf
+  pdf: /assets/publications/taco.pdf
 
 tog16a:
   title: "Simit: A Language for Physical Simulation"
@@ -157,7 +160,7 @@ tog16a:
     - kanwar
     - matusik
     - amarasinghe
-  paper: http://groups.csail.mit.edu/commit/papers/2016/simit.pdf
+  pdf: /assets/publications/simit.pdf
   image: http://groups.csail.mit.edu/commit/papers/2016/simit.jpg
   movie: https://www.youtube.com/embed/tFlG3Ygpews
 
@@ -202,7 +205,7 @@ tog16b:
   authors:
     - bernstein
     - kjolstad
-  paper: http://groups.csail.mit.edu/commit/papers/2016/why.pdf
+  pdf: /assets/publications/why_simulation_languages.pdf
 
 eurompi13:
   title: "MPI Datatype Processing using Runtime Compilation"
@@ -234,6 +237,7 @@ eurompi13:
     - schneider
     - kjolstad
     - hoefler
+  pdf: /assets/publications/datatype_compilation.pdf
 
 ppopp12:
   title: "Automatic Datatype Generation and Optimization"
@@ -256,6 +260,7 @@ ppopp12:
     - kjolstad
     - hoefler
     - snir
+  pdf: /assets/publications/datatype_generation.pdf
 
 icse11:
   title: "Transformation for Class Immutability"
@@ -281,6 +286,7 @@ icse11:
     - dig
     - acevedo
     - snir
+  pdf: /assets/publications/immutator.pdf
 
 cap10:
   title: "Bringing the HPC Programmer's IDE into the 21st Century through Refactoring"
@@ -302,6 +308,7 @@ cap10:
     - kjolstad
     - dig
     - snir
+  pdf: /assets/publications/hpc_refactoring.pdf
 
 paraplop10:
   title: "Ghost Cell Pattern"
@@ -321,3 +328,4 @@ paraplop10:
   authors:
     - kjolstad
     - snir
+  pdf: /assets/publications/ghost_cell_pattern.pdf
