@@ -1,0 +1,46 @@
+mitnews17:
+  title: "Faster big-data analysis"
+  tag: "System for performing “tensor algebra” offers 100-fold speedups over previous software packages"
+  year: "2017"
+  month: "October"
+  venue: "MIT News"
+  url: "http://news.mit.edu/2017/faster-big-data-analysis-tensor-algebra-1031"
+
+mitnews16:
+  title: "User-friendly language for programming efficient simulations"
+  tag: "New language can speed up computer simulations 200-fold or reduce the code they require by 90 percent" 
+  year: "2016"
+  month: "August"
+  venue: "MIT News"
+  url: "http://news.mit.edu/2016/user-friendly-language-programming-efficient-simulations-0810"
+
+engadget16:
+  title: "Simit is a new language for more efficient programming"
+  tag: "The applications for this new language are varied and can expedite various research processes"
+  year: "2016"
+  month: "November"
+  venue: "Engadget"
+  url: "https://www.engadget.com/2016/08/11/simit-new-programming-language/"
+
+register17:
+  title: "Cupboard of matrices looking a little... sparse? Have this delicious Taco"
+  tag: "Compsci boffins' open-source tool could massively speed up AI development"
+  year: "2017"
+  month: "November"
+  venue: "The Register"
+  url: "https://www.theregister.co.uk/2017/11/02/taco_ai_kernel_sparse_matrices/"
+
+cosmos17:
+  title: "A tensor situation: new system speeds up big data processing"
+  year: "2017"
+  month: "November"
+  venue: "Cosmos Magazine"
+  url: "https://cosmosmagazine.com/technology/a-tensor-situation-new-system-speeds-up-big-data-processing"
+
+iprogrammer17:
+  title: "Open Source Sparse Tensor Computation Is Fast"
+  year: "2017"
+  month: "November"
+  venue: "IProgrammer"
+  url: "https://www.i-programmer.info/news/202-number-crunching/11263-open-source-sparse-tensor-computation-is-fast.html"
+

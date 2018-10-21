@@ -27,7 +27,8 @@ performance engineering, parallel computing, and programmer
 productivity.
 
 
-## Publications
+<h2 class="tableheading">Publications</h2>
+
 <table border="0">
   {% for publication_keyval in site.data.publications %}
     <tr>
@@ -64,10 +65,17 @@ productivity.
 {% endfor %}
 </table>
 
-<!--
-## Press
--->
 
-<!--
-## Awards
--->
+<h2 class="tableheading">Press</h2>
+
+<table border="0">
+{%- for press_keyval in site.data.press %}
+  {%- assign press= press_keyval[1] -%}
+  <tr>
+  <td> 
+    <b><a href="{{press.url}}">{{press.title}}</a></b><br/>{{press.venue}}
+  </td>
+  </tr>
+{% endfor %}
+</table>
+
