@@ -20,12 +20,11 @@ tags: publication
 
   <div class="post-content">
     <h2>Abstract</h2>
-    {{ pub.abstract }}
+    <p>{{ pub.abstract }}</p>
 
     {% if pub.pdf %}
     <h2>Article</h2>
-    <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf"/></a>
-    <br/><br/>
+    <p><a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf"/></a></p>
     {%- endif -%} 
 
     {%- if pub.embeddedmovie -%}
