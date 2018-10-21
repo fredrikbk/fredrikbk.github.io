@@ -3,13 +3,19 @@ title: Fredrik Kjolstad
 layout: home
 ---
 
-![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"}
+<table border="0" margin="0">
+<td>
+<img src="/assets/fred.jpg" width="160">
+<!-- ![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"} -->
+</td>
+<td valign="top">
 PhD Candidate<br/>
 Computer Science and Artificial Intelligence Laboratory (CSAIL)<br/>
 Department of Electrical Engineering and Computer Science (EECS)<br/>
 Massachusetts Institute of Technology<br/>
-<fred@csail.mit.edu>
-<br/><br/><br/><br/><br/>
+<a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a>
+</td>
+</table>
 
 I am a PhD candidate at MIT.  I work on the [Taco
 compiler](http://tensor-compiler.org) for computing dense and sparse
