@@ -28,6 +28,11 @@ tags: publication
     <br/><br/>
     {%- endif -%} 
 
+    {%- if pub.embeddedmovie -%}
+    <h2>Movie</h2>
+    {{- pub.embeddedmovie -}}
+    {%- endif -%} 
+
     <h2>BibTeX</h2>
     <code>
       <pre>
