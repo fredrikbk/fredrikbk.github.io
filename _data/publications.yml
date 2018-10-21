@@ -17,14 +17,15 @@ arxiv18:
   MTTKRP with sparse output were not supported by prior tensor algebra
   compilers and the performance of MTTKRP with dense output improves
   by up to 35%."
-  venue: "arXiv technical report"
-  year: "2018"
-  month: "February"
+  venue: "arXiv 1802.10574"
+  year: 2018
+  month: February
   authors:
     - kjolstad
     - ahrens
     - kamil
     - amarasinghe
+  tag: workspaces
   pdf: /assets/publications/taco-workspaces.pdf
 
 oopsla18:
@@ -50,13 +51,16 @@ oopsla18:
   single matrix-vector multiplication directly with the data in COO,
   which is up to 3.6x faster than by first converting the data to
   CSR."
-  venue: "Proceedings of the ACM on Programming Languages, Volume 2, Issue OOPSLA"
-  year: "2018"
-  month: "October"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 2
+  issue: OOPSLA
+  year: 2018
+  month: October
   authors:
     - chou
     - kjolstad
     - amarasinghe
+  tag: formats
   pdf: /assets/publications/taco-formats.pdf
 
 ase17:
@@ -82,6 +86,7 @@ ase17:
     - lugato
     - kamil
     - amarasinghe
+  tag: tools
   pdf: /assets/publications/taco-tools.pdf
   movie: https://youtu.be/eE38PC2ctFs
 
@@ -101,9 +106,11 @@ oopsla17:
   called taco. Its performance is competitive with best-in-class
   hand-optimized kernels in popular libraries, while supporting far
   more tensor operations." 
-  venue: "Proceedings of the ACM on Programming Languages, Volume 1, Issue OOPSLA"
-  year: "2017"
-  month: "October"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 1
+  issue: OOPSLA
+  year: 2017
+  month: October
   award: "Distinguished Paper Award" # (6/66)
   authors:
     - kjolstad 
@@ -111,45 +118,44 @@ oopsla17:
     - chou
     - lugato
     - amarasinghe
+  tag: taco
   pdf: /assets/publications/taco.pdf
   movie: https://youtu.be/Kffbzf9etLE 
 
 tog16a:
   title: "Simit: A Language for Physical Simulation"
-  abstract: "With existing programming tools, writing high-performance
-  simulation code is labor intensive and requires sacrificing
-  readability and portability. The alternative is to prototype
-  simulations in a high-level language like Matlab, thereby
-  sacrificing performance. The Matlab programming model naturally
-  describes the behavior of an entire physical system using the
-  language of linear algebra. However, simulations also manipulate
-  individual geometric elements, which are best represented using
-  linked data structures like meshes. Translating between the linked
-  data structures and linear algebra comes at significant cost, both
-  to the programmer and to the machine. High-performance
-  implementations avoid the cost by rephrasing the computation in
-  terms of linked or index data structures, leaving the code
-  complicated and monolithic, often increasing its size by an order of
-  magnitude.
-  <br/>
-  In this article, we present Simit, a new language for physical
-  simulations that lets the programmer view the system both as a
-  linked data structure in the form of a hypergraph and as a set of
-  global vectors, matrices, and tensors depending on what is
-  convenient at any given time. Simit provides a novel assembly
-  construct that makes it conceptually easy and computationally
-  efficient to move between the two abstractions. Using the
-  information pro- vided by the assembly construct, the compiler
-  generates efficient in-place computation on the graph. We
-  demonstrate that Simit is easy to use: a Simit program is typically
-  shorter than a Matlab program; that it is high performance: a
-  Simit program running sequentially on a CPU performs compara- bly to
-  hand-optimized simulations; and that it is portable: Simit programs
-  can be compiled for GPUs with no change to the program, delivering 4
-  to 20x speedups over our optimized CPU code."
+  abstract: "<p>
+  With existing programming tools, writing high-performance simulation code is
+  labor intensive and requires sacrificing readability and portability. The
+  alternative is to prototype simulations in a high-level language like Matlab,
+  thereby sacrificing performance. The Matlab programming model naturally
+  describes the behavior of an entire physical system using the language of
+  linear algebra. However, simulations also manipulate individual geometric
+  elements, which are best represented using linked data structures like
+  meshes. Translating between the linked data structures and linear algebra
+  comes at significant cost, both to the programmer and to the machine.
+  High-performance implementations avoid the cost by rephrasing the computation
+  in terms of linked or index data structures, leaving the code complicated and
+  monolithic, often increasing its size by an order of magnitude.
+  </p><p>
+  In this article, we present Simit, a new language for physical simulations
+  that lets the programmer view the system both as a linked data structure in
+  the form of a hypergraph and as a set of global vectors, matrices, and
+  tensors depending on what is convenient at any given time. Simit provides a
+  novel assembly construct that makes it conceptually easy and computationally
+  efficient to move between the two abstractions. Using the information pro-
+  vided by the assembly construct, the compiler generates efficient in-place
+  computation on the graph. We demonstrate that Simit is easy to use: a Simit
+  program is typically shorter than a Matlab program; that it is high
+  performance: a Simit program running sequentially on a CPU performs compara-
+  bly to hand-optimized simulations; and that it is portable: Simit programs
+  can be compiled for GPUs with no change to the program, delivering 4 to 20x
+  speedups over our optimized CPU code.
+  </p>"
   year: "2016"
   month: "May"
-  venue: "ACM Transactions on Graphics (presented at SIGGRAPH 2016)"
+  venue: "ACM Transactions on Graphics"
+  venuenote: "presented at SIGGRAPH 2016"
   authors:
     - kjolstad
     - kamil
@@ -162,23 +168,25 @@ tog16a:
     - kanwar
     - matusik
     - amarasinghe
+  tag: simit
   pdf: /assets/publications/simit.pdf
   movie: https://youtu.be/raPkxhHy5ro
   image: http://groups.csail.mit.edu/commit/papers/2016/simit.jpg
 
 tog16b:
   title: "Why New Programming Languages for Simulation?"
-  abstract: "Simulations are complicated, performance-critical applications
-  that combine sophisticated computer science data structures with advanced
-  mathematical computation. Best practice suggests using optimized linear
-  algebra libraries, yet programmers of high- performance simulations
-  invariably abandon this ideal in order to optimize computation around
-  application data structures.  Getting good performance requires a lot of
-  human effort to manage data layout, vectorize, and parallelize code. And the
-  situation is getting worse. High-performance systems in the near future will
-  need to support concurrent execution on GPUs, multicore CPUs, a host of new
-  architectures, and across distributed systems.
-  <br/>
+  abstract: "<p>
+  Simulations are complicated, performance-critical applications that combine
+  sophisticated computer science data structures with advanced mathematical
+  computation. Best practice suggests using optimized linear algebra libraries,
+  yet programmers of high- performance simulations invariably abandon this
+  ideal in order to optimize computation around application data structures.
+  Getting good performance requires a lot of human effort to manage data
+  layout, vectorize, and parallelize code. And the situation is getting worse.
+  High-performance systems in the near future will need to support concurrent
+  execution on GPUs, multicore CPUs, a host of new architectures, and across
+  distributed systems.
+  </p><p>
   In response to similar trends, graphics researchers have proposed new
   programming languages to manage and abstract away from hardware complexity.
   Renderman [Upstill 1989], GPU Shading Languages, Cuda [Nvidia 2008], and more
@@ -193,20 +201,23 @@ tog16b:
   foundations. We believe the ideas behind the relational algebra and modern
   databases have direct relevance to simulation, and we expect to see similar
   benefits to those the database community has accrued.
-  <br/>
+  </p><p>
   In these proceedings, two such languages are presented: Ebb [Bernstein et al.
   2016] and Simit [Kjolstad et al. 2016]. These languages were developed
   independently by two separate groups centered at Stanford and MIT, and we
   believe they are first steps in a larger roadmap. We will let the articles
   speak for themselves on the strengths of their different operators and data
   structures. However, we encourage readers to note the common foundations we
-  will lay out and join us in exploring a fascinating new research direction."
-  venue: "ACM Transactions on Graphics (perspective)"
-  year: "2016"
-  month: "May"
+  will lay out and join us in exploring a fascinating new research direction.
+  </p>"
+  venue: "ACM Transactions on Graphics"
+  venuenote: "perspective"
+  year: 2016
+  month: May
   authors:
     - bernstein
     - kjolstad
+  tag: why
   pdf: /assets/publications/why_simulation_languages.pdf
 
 eurompi13:
@@ -239,6 +250,7 @@ eurompi13:
     - schneider
     - kjolstad
     - hoefler
+  tag: datatypecompilation
   pdf: /assets/publications/datatype_compilation.pdf
 
 ppopp12:
@@ -262,6 +274,7 @@ ppopp12:
     - kjolstad
     - hoefler
     - snir
+  tag: datatypegeneration
   pdf: /assets/publications/datatype_generation.pdf
 
 icse11:
@@ -288,6 +301,7 @@ icse11:
     - dig
     - acevedo
     - snir
+  tag: immutator
   pdf: /assets/publications/immutator.pdf
 
 cap10:
@@ -310,6 +324,7 @@ cap10:
     - kjolstad
     - dig
     - snir
+  tag: hpcrefactoring
   pdf: /assets/publications/hpc_refactoring.pdf
 
 paraplop10:
@@ -330,4 +345,5 @@ paraplop10:
   authors:
     - kjolstad
     - snir
+  tag: ghost
   pdf: /assets/publications/ghost_cell_pattern.pdf

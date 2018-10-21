@@ -30,12 +30,12 @@ productivity.
 <h2 class="tableheading">Publications</h2>
 
 <table border="0">
-  {% for publication_keyval in site.data.publications %}
+  {% for pub_keyval in site.data.publications %}
     <tr>
-      {%- assign publication = publication_keyval[1] -%}
+      {%- assign pub = pub_keyval[1] -%}
       <td>
-        <b>{{ publication.title }}</b><br/>
-        {%- for author in publication.authors -%}
+        <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+        {%- for author in pub.authors -%}
           {%- if forloop.last == true and forloop.length > 1 %}
             and
           {%- endif %}
@@ -48,17 +48,27 @@ productivity.
             ,
           {%- endif %}
         {%- endfor -%}<br/>
-        <i>{{ publication.venue }}</i>, {{ publication.month }} {{ publication.year }} <br/>
-        {% if publication.award %}
-          <i><b>{{ publication.award }}</b></i><br/>
+        <i>{{ pub.venue }}
+        {%- if pub.venuenote %}
+        ({{ pub.venuenote }})
+        {%- endif -%}
+        {%- if pub.volume -%}
+        , Volume {{ pub.volume }}
+        {%- endif -%}
+        {%- if pub.issue -%}
+        , Issue {{ pub.issue }}
+        {%- endif -%}
+        </i>, {{ pub.month }} {{ pub.year }}<br/>
+        {%- if pub.award -%}
+          <i><b>{{ pub.award }}</b></i><br/>
         {%- endif -%}
       </td>
       <td valign="top" width="20">
-        {% if publication.pdf %}
-          <a href="{{ publication.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+        {% if pub.pdf %}
+          <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
         {% endif %}
-        {% if publication.movie %}
-          <a href="{{ publication.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
+        {% if pub.movie %}
+          <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
         {% endif %}
       </td>
     </tr>
