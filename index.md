@@ -40,9 +40,9 @@ productivity.
             and
           {%- endif %}
           {%- if author == "kjolstad" %}
-            {{ site.data.authors[author].name }}
+            <font color="#000000">{{ site.data.authors[author].name }}</font>
           {%- else %}
-            <a href="{{- site.data.authors[author].site }}">{{ site.data.authors[author].name }}</a>
+            <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
           {%- endif -%}
           {%- if forloop.last == false and forloop.length > 2 -%}
             ,
