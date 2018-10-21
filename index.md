@@ -4,14 +4,14 @@ layout: home
 ---
 
 <table border="0" cellpadding="0">
-<td valign="top" style="min-width:140px;">
+<td valign="top" style="min-width:120px;">
 <img src="/assets/fred.jpg" width="160">
 <!-- ![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"} -->
 </td>
 <td valign="top">
 PhD Candidate<br/>
-Computer Science and Artificial Intelligence Laboratory (CSAIL)<br/>
-Department of Electrical Engineering and Computer Science (EECS)<br/>
+Computer Science and Artificial Intelligence Laboratory<br/>
+Department of Electrical Engineering and Computer Science<br/>
 Massachusetts Institute of Technology<br/>
 <a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a>
 </td>
