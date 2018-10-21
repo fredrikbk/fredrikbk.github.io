@@ -3,7 +3,7 @@ title: Fredrik Kjolstad
 layout: home
 ---
 
-<table border="0" margin="0">
+<table border="0" cellpadding="0">
 <td valign="top" style="width: 160px;">
 <img src="/assets/fred.jpg" width="160">
 <!-- ![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"} -->
