@@ -1,24 +1,26 @@
-arxiv18:
-  title: "Sparse Tensor Algebra Optimizations with Workspaces"
-  abstract: "This paper shows how to extend sparse tensor algebra com-
-  pilers to introduce temporary tensors, called workspaces, to avoid
-  the inefficiencies of accessing sparse data structures. We develop
-  an intermediate representation (IR) for tensor operations called
-  concrete index notation, that specifies when sub-computations occur
-  and where they are stored. We then describe the workspace
-  transformation in this IR, how to programmatically invoke it, and
-  how the IR is compiled to sparse code. Finally, we show how the
-  transformation can be used to optimize sparse tensor kernels,
-  including sparse matrix multiplication, sparse tensor addition,
-  and the matricized tensor times Khatri-Rao product (MTTKRP).  Our
-  results show that the workspace transformation brings the
-  performance of these kernels on par with hand-optimized
-  implementations. For example, sparse matrix multiplication and
-  MTTKRP with sparse output were not supported by prior tensor algebra
-  compilers and the performance of MTTKRP with dense output improves
-  by up to 35%."
-  venue: "arXiv 1802.10574"
-  year: 2018
+cgo19:
+  title: "Sparse Tensor Algebra Optimization with Workspaces"
+  abstract: "<p>
+  This paper shows how to extend sparse tensor algebra compilers to
+  introduce temporary tensors, called workspaces, to avoid the inefficiencies
+  of accessing sparse data structures. We develop an intermediate
+  representation (IR) for tensor operations called concrete index notation,
+  that specifies when sub-computations occur and where they are stored. We then
+  describe the workspace transformation in this IR, how to programmatically
+  invoke it, and how the IR is compiled to sparse code. Finally, we show how
+  the transformation can be used to optimize sparse tensor kernels, including
+  sparse matrix multiplication, sparse tensor addition, and the matricized
+  tensor times Khatri-Rao product (MTTKRP).
+  </p><p>
+  Our results show that the workspace transformation brings the performance of
+  these kernels on par with hand-optimized implementations. For example, sparse
+  matrix multiplication and MTTKRP with sparse output were not supported by
+  prior tensor algebra compilers and the performance of MTTKRP with dense
+  output improves by up to 35%.
+  </p>"
+  venue: "International Symposium on Code Generation and Optimization"
+  venuenote: "to appear"
+  year: 2019
   month: February
   authors:
     - kjolstad
