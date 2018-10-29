@@ -28,7 +28,7 @@ cgo19:
     - kamil
     - amarasinghe
   tag: workspaces
-  pdf: /assets/publications/taco-workspaces.pdf
+  pdf: /publications/taco-workspaces.pdf
 
 oopsla18:
   title: "Format Abstraction for Sparse Publications Tensor Algebra Compilers"
@@ -63,7 +63,7 @@ oopsla18:
     - kjolstad
     - amarasinghe
   tag: formats
-  pdf: /assets/publications/taco-formats.pdf
+  pdf: /publications/taco-formats.pdf
 
 ase17:
   title: "taco: A Tool to Generate Tensor Algebra Kernels"
@@ -89,7 +89,7 @@ ase17:
     - kamil
     - amarasinghe
   tag: tools
-  pdf: /assets/publications/taco-tools.pdf
+  pdf: /publications/taco-tools.pdf
   movie: https://youtu.be/eE38PC2ctFs
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/eE38PC2ctFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 
@@ -122,7 +122,7 @@ oopsla17:
     - lugato
     - amarasinghe
   tag: taco
-  pdf: /assets/publications/taco.pdf
+  pdf: /publications/taco.pdf
   movie: https://youtu.be/Kffbzf9etLE 
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/Kffbzf9etLE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -173,7 +173,7 @@ tog16a:
     - matusik
     - amarasinghe
   tag: simit
-  pdf: /assets/publications/simit.pdf
+  pdf: /publications/simit.pdf
   movie: https://youtu.be/raPkxhHy5ro
   image: http://groups.csail.mit.edu/commit/papers/2016/simit.jpg
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/raPkxhHy5ro" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -223,7 +223,7 @@ tog16b:
     - bernstein
     - kjolstad
   tag: why
-  pdf: /assets/publications/why_simulation_languages.pdf
+  pdf: /publications/why_simulation_languages.pdf
 
 eurompi13:
   title: "MPI Datatype Processing using Runtime Compilation"
@@ -256,7 +256,7 @@ eurompi13:
     - kjolstad
     - hoefler
   tag: datatypecompilation
-  pdf: /assets/publications/datatype_compilation.pdf
+  pdf: /publications/datatype_compilation.pdf
 
 ppopp12:
   title: "Automatic Datatype Generation and Optimization"
@@ -280,7 +280,7 @@ ppopp12:
     - hoefler
     - snir
   tag: datatypegeneration
-  pdf: /assets/publications/datatype_generation.pdf
+  pdf: /publications/datatype_generation.pdf
 
 icse11:
   title: "Transformation for Class Immutability"
@@ -307,7 +307,7 @@ icse11:
     - acevedo
     - snir
   tag: immutator
-  pdf: /assets/publications/immutator.pdf
+  pdf: /publications/immutator.pdf
 
 cap10:
   title: "Bringing the HPC Programmer's IDE into the 21st Century through Refactoring"
@@ -330,7 +330,7 @@ cap10:
     - dig
     - snir
   tag: hpcrefactoring
-  pdf: /assets/publications/hpc_refactoring.pdf
+  pdf: /publications/hpc_refactoring.pdf
 
 paraplop10:
   title: "Ghost Cell Pattern"
@@ -351,4 +351,4 @@ paraplop10:
     - kjolstad
     - snir
   tag: ghost
-  pdf: /assets/publications/ghost_cell_pattern.pdf
+  pdf: /publications/ghost_cell_pattern.pdf
