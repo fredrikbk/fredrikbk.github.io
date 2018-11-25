@@ -18,7 +18,7 @@ Massachusetts Institute of Technology<br/>
 </td>
 </table>
 
-I am a PhD candidate at MIT.  I work on the [Taco
+I am a PhD candidate at MIT.  I work on the [taco
 compiler](http://tensor-compiler.org) for computing sparse
 tensor expressions and the [Simit programming
 language](http://simit-lang.org) for computing on graphs and
