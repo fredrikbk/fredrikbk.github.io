@@ -67,6 +67,42 @@ oopsla18:
   movie: https://youtu.be/sQOq3Ci4tB0
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sQOq3Ci4tB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+avancees18:
+  title: "Taco: compilation et génération de code d’expressions tensorielles"
+  abstract: "L’évaluation des performances du code généré démontre l’efficacité
+  de cette approche tant sur des expressions simples comme un SpMV de forme bi=
+  Aij× xj (figure 3a) que sur des expressions complexes impliquant des tenseurs
+  d’ordre élevé comme un MTTKRP de forme Aij= Bikl× Ckj× Dlj. Elle permet
+  surtout d’éliminer le compromis entre performance et exhaustivité des
+  librairies existantes. La figure 3b montre pour l’expression Aij= Bij+ Cij+
+  Dij les gains de performance obtenus avec taco contre les librairies qui
+  implémentent cette expression. Le parallélisme pour des architectures à
+  mémoire partagée est assuré par l’ajout de directives d’interfaces de
+  programmation parallèle (telles que OpenMP ou Cilk) au niveau des boucles
+  externes. Les travaux de recherche en cours portent sur la prise en compte de
+  nouveaux formats de stockage et d’un niveau de parallélisme distribué. La
+  suite logicielle taco est composée de trois couches logicielles successives
+  et utilisables indépendamment: une librairie C++, un outil en ligne de
+  commande et une interface web. L’outil en ligne de commande permet de
+  comparer les performances des noyaux de code générés, d’étudier l’impact du
+  choix des formats et d’optimiser interactivement le code généré 4. Le
+  compilateur taco propose une approche générative dédiée à l’algèbre
+  tensorielle et pour une infinité de formats de stockage. En s’ appuyant sur
+  ce compilateur, on peut construire des langages, des bibliothèques et des
+  logiciels de simulation manipulant des tenseurs denses et creux sans écrire
+  manuellement le code ni sacrifier les performances."
+  authors:
+    - lugato
+    - kjolstad
+    - chou
+    - amarasinghe
+    - kamil
+  venue: "AVANCÉES"
+  volume: 12
+  year: 2018
+  tag: avancee
+  pdf: https://scholar.google.com/scholar?oi=bibs&cluster=8503015401540923787&btnI=1&hl=en
+
 ase17:
   title: "taco: A Tool to Generate Tensor Algebra Kernels"
   abstract: "Tensor algebra is an important computational abstraction
