@@ -14,6 +14,7 @@ Computer Science and Artificial Intelligence Laboratory<br/>
 Department of Electrical Engineering and Computer Science<br/>
 Massachusetts Institute of Technology<br/>
 <a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a>
+<a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a>
 </td>
 </table>
 
