@@ -64,6 +64,8 @@ oopsla18:
     - amarasinghe
   tag: formats
   pdf: /publications/taco-formats.pdf
+  movie: https://youtu.be/sQOq3Ci4tB0
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sQOq3Ci4tB0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ase17:
   title: "taco: A Tool to Generate Tensor Algebra Kernels"
