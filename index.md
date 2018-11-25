@@ -13,7 +13,7 @@ PhD Candidate<br/>
 Computer Science and Artificial Intelligence Laboratory<br/>
 Department of Electrical Engineering and Computer Science<br/>
 Massachusetts Institute of Technology<br/>
-<a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a>
+<a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a><br/>
 <a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a>
 </td>
 </table>
@@ -27,6 +27,14 @@ interests include compilers, programming models and languages,
 performance engineering, parallel computing, and programmer
 productivity.
 
+<h2 class="tableheading">News</h2>
+
+I am co-organizing an [Invited Workshop on Compiler Techniques for
+Sparse Tensor
+Algebra](http://groups.csail.mit.edu/commit/2019tensorworkshop/) that
+will tentatively bring together researchers from ten universities, six
+companies, and two national labs to discuss individual approaches, how
+they relate, and how ideas can be combined.
 
 <h2 class="tableheading">Publications</h2>
 
