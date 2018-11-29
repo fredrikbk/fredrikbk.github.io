@@ -19,34 +19,31 @@ Massachusetts Institute of Technology<br/>
 </table>
 
 
-I aim to make it easy to program sparse computing applications that
-can run everywhere with end-to-end performance that matches or exceeds
-the best hand-optimized codes.  A sparse application computes on a
-system where most parts do not interact—they are sparsely
-interconnected. Examples include sparse matrices, meshes, and
-graphical arrangements used to simulate the dynamics of robots,
-optimize the flow of traffic, compute the rank of web pages, estimate
-the similarity of genome loci, or train sparse deep neural networks.
-Sparse computing is ubiquitous and will become increasingly important
-with the growth of robotic and autonomous vehicle applications, data
-analytics, and machine learning.
+I aim to make it easy to program sparse computing applications that can run
+everywhere with end-to-end performance that matches or exceeds the best
+hand-optimized codes.  A sparse application computes on a system where most
+parts do not interact—they are sparsely interconnected. Examples include sparse
+matrices, meshes, and graphical arrangements used to simulate the dynamics of
+robots, optimize the flow of traffic, compute the rank of web pages, estimate
+the similarity of genome loci, or train sparse deep neural networks.  Sparse
+computing is ubiquitous and will become increasingly important with the growth
+of robotic and autonomous vehicle applications, data analytics, and machine
+learning.
 
-In my PhD I have developed the [taco
-compiler](http://tensor-compiler.org) for computing sparse tensor
-expressions and the [Simit programming
-language](http://simit-lang.org) for computing on sparse systems.  My
-broad research interests include compilers, programming models and
-languages, parallel computing, software engineering, and performance
+Throughout my PhD studies, I have developed the [taco
+compiler](http://tensor-compiler.org) for computing sparse tensor expressions
+and the [Simit programming language](http://simit-lang.org) for computing on
+sparse systems.  My broad research interests include compilers, programming
+models and languages, parallel computing, software engineering, and performance
 engineering.
 
 <h2 class="tableheading">News</h2>
 
-I am co-organizing an [Invited Workshop on Compiler Techniques for
-Sparse Tensor
-Algebra](http://groups.csail.mit.edu/commit/2019tensorworkshop/) that
-will bring together researchers from ten universities, six companies,
-and two national labs to discuss approaches to sparse tensor
-computation, how they relate, and how ideas can be combined.
+I am co-organizing an [Invited Workshop on Compiler Techniques for Sparse
+Tensor Algebra](http://groups.csail.mit.edu/commit/2019tensorworkshop/) that
+will bring together researchers from eighteen universities, companies, and
+national labs to discuss approaches to sparse tensor computation, how they
+relate, and how ideas can be combined.
 
 <h2 class="tableheading">Publications</h2>
 
