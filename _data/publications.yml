@@ -31,7 +31,7 @@ cgo19:
   pdf: /publications/taco-workspaces.pdf
 
 oopsla18:
-  title: "Format Abstraction for Sparse Publications Tensor Algebra Compilers"
+  title: "Format Abstraction for Sparse Tensor Algebra Compilers"
   abstract: "This paper shows how to build a sparse tensor algebra
   compiler that is agnostic to tensor formats (data layouts). We
   develop an interface that describes formats in terms of their
