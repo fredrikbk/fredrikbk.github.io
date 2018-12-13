@@ -41,7 +41,7 @@ engineering.
 
 I am co-organizing an [Invited Workshop on Compiler Techniques for Sparse
 Tensor Algebra](http://groups.csail.mit.edu/commit/2019tensorworkshop/) that
-will bring together researchers from eighteen universities, companies, and
+will bring together researchers from twenty universities, companies, and
 national labs to discuss approaches to sparse tensor computation, how they
 relate, and how ideas can be combined.
 
