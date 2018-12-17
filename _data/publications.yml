@@ -14,7 +14,7 @@ cgo19:
   </p><p>
   Our results show that the workspace transformation brings the performance of
   these kernels on par with hand-optimized implementations. For example, we
-  improve the performance of MTTKRP with dense output by up to 35\%, and enable
+  improve the performance of MTTKRP with dense output by up to 35%, and enable
   generating sparse matrix multiplication and MTTKRP with sparse output,
   neither of which were supported by prior tensor algebra compilers.
   </p>"
