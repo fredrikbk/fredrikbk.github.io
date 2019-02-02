@@ -37,6 +37,8 @@ sparse systems.  My broad research interests include compilers, programming
 models and languages, parallel computing, software engineering, and performance
 engineering.
 
+I am on the faculty job market this year!
+
 <h2 class="tableheading">News</h2>
 
 I am co-organizing an [Invited Workshop on Compiler Techniques for Sparse
