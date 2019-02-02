@@ -39,6 +39,8 @@ engineering.
 
 <h2 class="tableheading">News</h2>
 
+I am on the faculty job market this year!
+
 I am co-organizing an [Invited Workshop on Compiler Techniques for Sparse
 Tensor Algebra](http://groups.csail.mit.edu/commit/2019tensorworkshop/) that
 will bring together researchers from twenty universities, companies, and
