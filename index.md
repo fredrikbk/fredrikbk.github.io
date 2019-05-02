@@ -30,14 +30,11 @@ computing is ubiquitous and will become increasingly important with the growth
 of robotic and autonomous vehicle applications, data analytics, and machine
 learning.
 
-Throughout my PhD studies, I have developed the [taco
-compiler](http://tensor-compiler.org) for computing sparse tensor expressions
-and the [Simit programming language](http://simit-lang.org) for computing on
-sparse systems.  My broad research interests include compilers, programming
-models and languages, parallel computing, software engineering, and performance
-engineering.
-
-I am on the faculty job market this year!
+I have developed the [taco compiler](http://tensor-compiler.org) for computing
+sparse tensor expressions and the [Simit programming
+language](http://simit-lang.org) for computing on sparse systems.  My broad
+research interests include compilers, programming models and languages,
+parallel computing, software engineering, and performance engineering.
 
 <h2 class="tableheading">News</h2>
 
