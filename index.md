@@ -9,12 +9,11 @@ layout: home
 <!-- ![Fredrik Kjolstad](/assets/fred.jpg){:style="float:left; margin-right:7px; margin-top:7px; width:160px"} -->
 </td>
 <td valign="top">
-PhD Candidate<br/>
-Computer Science and Artificial Intelligence Laboratory<br/>
-Department of Electrical Engineering and Computer Science<br/>
-Massachusetts Institute of Technology<br/>
-<a href="mailto:fred@csail.mit.edu">fred@csail.mit.edu</a><br/>
-<a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a>
+Assistant Professor<br/>
+Department of Computer Science<br/>
+Stanford University<br/>
+<a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
+<!-- <a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a> -->
 </td>
 </table>
 
@@ -36,9 +35,11 @@ language](http://simit-lang.org) for computing on sparse systems.  My broad
 research interests include compilers, programming models and languages,
 parallel computing, software engineering, and performance engineering.
 
+<!--
 <h2 class="tableheading">News</h2>
 
 I am joining Stanford University as an Assistant Professor starting in March!
+-->
 
 <h2 class="tableheading">Publications</h2>
 
