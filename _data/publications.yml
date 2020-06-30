@@ -31,6 +31,8 @@ pldi2020:
     - chou
     - kjolstad
     - amarasinghe
+  tag: conversion
+  pdf: /publications/taco-conversion.pdf
 
 cgo19:
   title: "Tensor Algebra Compilation with Workspaces"
