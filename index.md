@@ -36,9 +36,9 @@ language](http://simit-lang.org) for computing on sparse systems.  My broad
 research interests include compilers, programming models and languages,
 parallel computing, software engineering, and performance engineering.
 
-My thesis on sparse tensor algebra compilation is the best place
-to start exploring the research around the tensor algebra compiler:
-<a href="/publications/kjolstad-thesis.pdf"><img src="/assets/pdf.png" alt="pdf" /></a>
+My thesis on <a href="/publications/kjolstad-thesis.pdf">Sparse
+Tensor Algebra Compilation</a> is the best place to start exploring
+the research around the tensor algebra compiler
 
 <!--
 <h2 class="tableheading">News</h2>
