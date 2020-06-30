@@ -37,8 +37,9 @@ research interests include compilers, programming models and languages,
 parallel computing, software engineering, and performance engineering.
 
 My thesis on <a href="/publications/kjolstad-thesis.pdf">Sparse
-Tensor Algebra Compilation</a> is the best place to start exploring
-the research around the tensor algebra compiler
+Tensor Algebra Compilation</a> is the best place to start reading
+about the ideas behind the tensor algebra compiler (taco) and
+sparse iteration theory.
 
 <!--
 <h2 class="tableheading">News</h2>
