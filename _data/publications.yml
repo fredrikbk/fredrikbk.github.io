@@ -33,6 +33,8 @@ pldi20:
     - amarasinghe
   tag: conversion
   pdf: /publications/taco-conversion.pdf
+  movie: https://youtu.be/s6JRY8qcjvA
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/s6JRY8qcjvA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 cgo19:
   title: "Tensor Algebra Compilation with Workspaces"
