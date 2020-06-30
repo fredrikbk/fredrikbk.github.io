@@ -24,7 +24,7 @@ pldi20:
   technique also outperforms both libraries by between 1.4 and 3.4x for CSC/COO
   to DIA/ELL conversion.
   </p>"
-  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation (accepted)"
+  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation"
   year: 2020
   month: June
   authors:
