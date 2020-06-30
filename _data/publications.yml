@@ -1,4 +1,4 @@
-pldi2020:
+pldi20:
   title: "Automatic Generation of Efficient Sparse Tensor Format Conversion Routines"
   abstract: "<p>
   This paper shows how to generate code that efficiently converts sparse
