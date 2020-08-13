@@ -18,6 +18,7 @@ spaa20:
   all tensor and transposition combinations.
   </p>"
   venue: "ACM Symposium on Parallelism in Algorithms and Architectures (Brief Announcement)"
+  year: 2020
   month: July
   authors:
     - mueller
