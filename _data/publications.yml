@@ -1,3 +1,34 @@
+spaa20:
+  title: "Sparse Tensor Transpositions"
+  abstract: "<p>
+  We present a new algorithm for transposing sparse tensors called Quesadilla.
+  The algorithm converts the sparse tensor data structure to a list of
+  coordinates and sorts it with a fast multi-pass radix algorithm that exploits
+  knowledge of the requested transposition and the tensors input partial
+  coordinate ordering to provably minimize the number of parallel partial
+  sorting passes. We evaluate both a serial and a parallel implementation of
+  Quesadilla on a set of 19 tensors from the FROSTT collection, a set of
+  tensors taken from scientific and data analytic applications. We compare
+  Quesadilla and a generalization, Top-2-sadilla to several state of the art
+  approaches, including the tensor transposition routine used in the SPLATT
+  tensor factorization library. In serial tests, Quesadilla was the best
+  strategy for 60% of all tensor and transposition combinations and improved
+  over SPLATT by at least 19% in half of the combinations. In parallel tests,
+  at least one of Quesadilla or Top-2-sadilla was the best strategy for 52% of
+  all tensor and transposition combinations.
+  </p>"
+  venue: "ACM Symposium on Parallelism in Algorithms and Architectures (Brief Announcement)"
+  month: July
+  authors:
+    - mueller
+    - ahrens
+    - chou
+    - kjolstad
+    - amarasinghe
+  tag: transposition
+  pdf: /publications/taco-transposition.pdf
+
+
 pldi20:
   title: "Automatic Generation of Efficient Sparse Tensor Format Conversion Routines"
   abstract: "<p>
