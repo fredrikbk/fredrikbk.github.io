@@ -67,7 +67,8 @@ aha20:
   high-performance and energy-efficient hardware-software systems for any
   application domain.
   </p>"
-  venue: "Design Automation Conference (DAC)"
+  venue: "Design Automation Conference"
+  venuenote: "DAC"
   year: 2020
   month: July
   authors:
@@ -124,7 +125,8 @@ spaa20:
   at least one of Quesadilla or Top-2-sadilla was the best strategy for 52% of
   all tensor and transposition combinations.
   </p>"
-  venue: "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA Brief Announcement)"
+  venue: "ACM Symposium on Parallelism in Algorithms and Architectures"
+  venuenote: "SPAA brief announcement"
   year: 2020
   month: July
   authors:
@@ -163,7 +165,8 @@ pldi20:
   technique also outperforms both libraries by between 1.4 and 3.4x for CSC/COO
   to DIA/ELL conversion.
   </p>"
-  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)"
+  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation"
+  venuenote: "PLDI"
   year: 2020
   month: June
   authors:
@@ -195,7 +198,8 @@ cgo19:
   generating sparse matrix multiplication and MTTKRP with sparse output,
   neither of which were supported by prior tensor algebra compilers.
   </p>"
-  venue: "International Symposium on Code Generation and Optimization (CGO)"
+  venue: "International Symposium on Code Generation and Optimization"
+  venuenote: "CGO"
   year: 2019
   month: February
   authors:
@@ -293,7 +297,8 @@ ase17:
   and command-line tools and discusses the benefits of a code
   generator over a traditional library. See also the demo video at
   tensor-compiler.org/ase2017."
-  venue: "32th IEEE/ACM International Conference on Automated Software Engineering (tools paper)"
+  venue: "32th IEEE/ACM International Conference on Automated Software Engineering"
+  venuenote: "ASE tools paper"
   year: "2017"
   month: "November"
   authors:
@@ -372,8 +377,8 @@ tog16a:
   </p>"
   year: "2016"
   month: "May"
-  venue: "ACM Transactions on Graphics (TOG)"
-  venuenote: "presented at SIGGRAPH 2016"
+  venue: "ACM Transactions on Graphics"
+  venuenote: "TOG presented at SIGGRAPH 2016"
   authors:
     - kjolstad
     - kamil
@@ -430,7 +435,7 @@ tog16b:
   will lay out and join us in exploring a fascinating new research direction.
   </p>"
   venue: "ACM Transactions on Graphics"
-  venuenote: "perspective"
+  venuenote: "TOG perspective"
   year: 2016
   month: May
   authors:
@@ -486,7 +491,8 @@ ppopp12:
   Parallel Benchmarks. The transformation allows easy porting of applications
   to new machines that benefit from datatypes, thus improving programmer
   productivity."
-  venue: "17th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (short paper)"
+  venue: "17th ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming"
+  venuenote: "PPoPP short paper"
   year: "2012"
   month: "February"
   authors:
@@ -513,6 +519,7 @@ icse11:
   the burden of making classes immutable, (ii) is fast enough to be used
   interactively, and (iii) is much safer than manual transformations."
   venue: "33rd International Conference on Software Engineering"
+  venuenote: "ICSE"
   year: "2011"
   month: "May"
   authors:
