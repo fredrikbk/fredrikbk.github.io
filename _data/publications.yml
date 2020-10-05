@@ -16,7 +16,7 @@ oopsla2020:
     sparse iteration spaces into statically load-balanced blocks of nonzeros.
     Tiling the space of nonzeros lets the generated code efficiently exploit
     heterogeneous compute resources such as threads, vector units, and GPUs.
-
+    </p><p>
     We implement these concepts and an associated scheduling API in the
     open-source TACO system. The scheduling API can be used by performance
     engineers or it can be the target of an automatic scheduling system. We
@@ -124,7 +124,7 @@ spaa20:
   at least one of Quesadilla or Top-2-sadilla was the best strategy for 52% of
   all tensor and transposition combinations.
   </p>"
-  venue: "ACM Symposium on Parallelism in Algorithms and Architectures (Brief Announcement)"
+  venue: "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA Brief Announcement)"
   year: 2020
   month: July
   authors:
@@ -163,7 +163,7 @@ pldi20:
   technique also outperforms both libraries by between 1.4 and 3.4x for CSC/COO
   to DIA/ELL conversion.
   </p>"
-  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation"
+  venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation (PLDI)"
   year: 2020
   month: June
   authors:
@@ -195,7 +195,7 @@ cgo19:
   generating sparse matrix multiplication and MTTKRP with sparse output,
   neither of which were supported by prior tensor algebra compilers.
   </p>"
-  venue: "International Symposium on Code Generation and Optimization"
+  venue: "International Symposium on Code Generation and Optimization (CGO)"
   year: 2019
   month: February
   authors:
@@ -372,7 +372,7 @@ tog16a:
   </p>"
   year: "2016"
   month: "May"
-  venue: "ACM Transactions on Graphics"
+  venue: "ACM Transactions on Graphics (TOG)"
   venuenote: "presented at SIGGRAPH 2016"
   authors:
     - kjolstad
