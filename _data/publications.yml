@@ -1,4 +1,4 @@
-oopsla2020:
+oopsla20:
   title: A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra
   abstract: "<p>
     We address the problem of optimizing sparse tensor algebra in a compiler
