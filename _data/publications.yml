@@ -23,6 +23,14 @@ copypatch20:
     and LLVM -O0, making code generation more effective in compile-time
     sensitive applications.
     </p>"
+  venue: "arxiv"
+  issue: "2011.13127"
+  year: 2020
+  month: November 
+  authors:
+    - xu
+    - kjolstad
+  pdf: /publications/copypatch.pdf
 
 
 
@@ -56,12 +64,19 @@ oopsla20:
     implementations from the literature, while generalizing to all of the
     tensor algebra.
     </p>"
-  venue: "arxiv"
-  issue: "2011.13127"
-  year: 2020
-  month: November 
-  authors:
-    - xu
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 4
+  issue: OOPSLA
+   year: 2020
+   month: November
+   authors:
+    - senanayake
+    - hong
+    - wang
+    - wilson
+    - chou
+    - kamil
+    - amarasinghe
     - kjolstad
   pdf: /publications/copypatch.pdf
 
