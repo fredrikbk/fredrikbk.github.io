@@ -1,3 +1,31 @@
+copypatch20:
+  title: Copy-and-Patch Binary Code Generation
+  abstract: "<p>
+    Runtime compilation of runtime-constructed code is becoming standard
+    practice in libraries, DSLs, and database management systems. Since
+    compilation is expensive, systems that are sensitive to compile times such
+    as relational database query compilers compile only hot code and interprets
+    the rest with a much slower interpreter. 
+    </p><p>
+    We present a code generation technique that lowers an AST to binary code by
+    stitching together code from a large library of binary AST node
+    implementations. We call the implementations stencils because they have
+    holes where values must be inserted during code generation. We show how to
+    construct such a stencil library and describe the copy-and-patch technique
+    that generates optimized binary code.
+    </p><p>
+    The result is a code generator with negligible cost: it produces code from
+    an AST in less time than it takes to construct the AST. Compared to LLVM,
+    compilation is two orders of magnitude faster than -O0 and three orders of
+    magnitude faster than higher optimization levels. The generated code runs
+    an order of magnitude faster than interpretation and runs even faster than
+    LLVM -O0. Thus, copy-and-patch can effectively replace both interpreters
+    and LLVM -O0, making code generation more effective in compile-time
+    sensitive applications.
+    </p>"
+
+
+
 oopsla20:
   title: A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra
   abstract: "<p>
@@ -28,22 +56,14 @@ oopsla20:
     implementations from the literature, while generalizing to all of the
     tensor algebra.
     </p>"
-  venue: "Proceedings of the ACM on Programming Languages"
-  volume: 4
-  issue: OOPSLA
+  venue: "arxiv"
+  issue: "2011.13127"
   year: 2020
   month: November 
   authors:
-    - senanayake
-    - hong
-    - wang
-    - wilson
-    - chou
-    - kamil
-    - amarasinghe
+    - xu
     - kjolstad
-  tag: formats
-  pdf: /publications/taco-scheduling.pdf
+  pdf: /publications/copypatch.pdf
 
 aha20:
   title: Creating an Agile Hardware Design Flow
