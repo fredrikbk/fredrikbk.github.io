@@ -77,6 +77,8 @@ oopsla20:
     - amarasinghe
     - kjolstad
   pdf: /publications/taco-scheduling.pdf
+  movie: https://youtu.be/0wJsGWA5pTU
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/0wJsGWA5pTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 aha20:
   title: Creating an Agile Hardware Design Flow
