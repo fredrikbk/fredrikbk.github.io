@@ -45,19 +45,19 @@ sparse iteration theory.
 
 <table border="0">
   <tr>
-      Olivia Hsu (with Kunle Olukotun)
+      <td>Olivia Hsu (with Kunle Olukotun)<\td>
   </tr>
   <tr>
-      Scott Kovach
+      <td>Scott Kovach<\td>
   </tr>
   <tr>
-      Amalee Wilson (with Clark Barrett)
+      <td>Amalee Wilson (with Clark Barrett)<\td>
   </tr>
   <tr>
-      Haoran Xu
+      <td>Haoran Xu<\td>
   </tr>
   <tr>
-      Rohan Yadav (with Alex Aiken)
+      <td>Rohan Yadav (with Alex Aiken)<\td>
   </tr>
 </table>
 
