@@ -41,25 +41,16 @@ Tensor Algebra Compilation</a> is the best place to start reading
 about the ideas behind the tensor algebra compiler (taco) and
 sparse iteration theory.
 
+
 <h2 class="tableheading">PhD Students</h2>
 
-<table border="0">
-  <tr>
-      <td>Olivia Hsu (with Kunle Olukotun)<\td>
-  </tr>
-  <tr>
-      <td>Scott Kovach<\td>
-  </tr>
-  <tr>
-      <td>Amalee Wilson (with Clark Barrett)<\td>
-  </tr>
-  <tr>
-      <td>Haoran Xu<\td>
-  </tr>
-  <tr>
-      <td>Rohan Yadav (with Alex Aiken)<\td>
-  </tr>
-</table>
+<ul>
+  <li>Olivia Hsu (with Kunle Olukotun)</li>
+  <li>Scott Kovach</li>
+  <li>Amalee Wilson (with Clark Barrett)</li>
+  <li>Haoran Xu</li>
+  <li>Rohan Yadav (with Alex Aiken)</li>
+</ul>
 
 
 <h2 class="tableheading">Publications</h2>
