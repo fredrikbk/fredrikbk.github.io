@@ -13,7 +13,7 @@ Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Office: 440 Gates
-<a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
+<a href="mailto:kjolstad@stanford.edu">kjolstad@cs.stanford.edu</a><br/>
 <!-- <a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a> -->
 </td>
 </table>
@@ -41,11 +41,26 @@ Tensor Algebra Compilation</a> is the best place to start reading
 about the ideas behind the tensor algebra compiler (taco) and
 sparse iteration theory.
 
-<!--
-<h2 class="tableheading">News</h2>
+<h2 class="tableheading">PhD Students</h2>
 
-I am joining Stanford University as an Assistant Professor starting in March!
--->
+<table border="0">
+  <tr>
+      Olivia Hsu (with Kunle Olukotun)
+  </tr>
+  <tr>
+      Scott Kovach
+  </tr>
+  <tr>
+      Amalee Wilson (with Clark Barrett)
+  </tr>
+  <tr>
+      Haoran Xu
+  </tr>
+  <tr>
+      Rohan Yadav (with Alex Aiken)
+  </tr>
+</table>
+
 
 <h2 class="tableheading">Publications</h2>
 
