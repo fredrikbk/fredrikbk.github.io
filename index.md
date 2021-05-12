@@ -47,7 +47,6 @@ sparse iteration theory.
 <ul>
   <li>Olivia Hsu (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
-  <li>Amalee Wilson (with Clark Barrett)</li>
   <li>Haoran Xu</li>
   <li>Rohan Yadav (with Alex Aiken)</li>
 </ul>
