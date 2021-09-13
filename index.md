@@ -45,10 +45,10 @@ sparse iteration theory.
 <h2 class="tableheading">PhD Students</h2>
 
 <ul>
-  <li>Olivia Hsu (with Kunle Olukotun)</li>
+  <li>[Olivia Hsu](https://weiya711.github.io/) (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
   <li>Haoran Xu</li>
-  <li>Rohan Yadav (with Alex Aiken)</li>
+  <li>[Rohan Yadav](https://rohany.github.io/) (with Alex Aiken)</li>
 </ul>
 
 
