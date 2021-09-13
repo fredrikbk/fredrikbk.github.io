@@ -1,36 +1,40 @@
-copypatch20:
-  title: Copy-and-Patch Binary Code Generation
+copy-and-patch:
+  title: Copy-and-Patch Compilation
   abstract: "<p>
-    Runtime compilation of runtime-constructed code is becoming standard
-    practice in libraries, DSLs, and database management systems. Since
-    compilation is expensive, systems that are sensitive to compile times such
-    as relational database query compilers compile only hot code and interprets
-    the rest with a much slower interpreter. 
+    Fast compilation is important when compilation occurs at runtime, such as
+    query compilers in modern database systems and WebAssembly virtual machines
+    in modern browsers. We present copy-and-patch, an extremely fast
+    compilation technique that also produces good quality code. It is capable
+    of lowering both high-level languages and low-level bytecode programs to
+    binary code, by stitching together code from a large library of binary
+    implementation variants. We call these binary implementations stencils
+    because they have holes where missing values must be inserted during code
+    generation. We show how to construct a stencil library and describe the
+    copy-and-patch algorithm that generates optimized binary code.
     </p><p>
-    We present a code generation technique that lowers an AST to binary code by
-    stitching together code from a large library of binary AST node
-    implementations. We call the implementations stencils because they have
-    holes where values must be inserted during code generation. We show how to
-    construct such a stencil library and describe the copy-and-patch technique
-    that generates optimized binary code.
-    </p><p>
-    The result is a code generator with negligible cost: it produces code from
-    an AST in less time than it takes to construct the AST. Compared to LLVM,
-    compilation is two orders of magnitude faster than -O0 and three orders of
-    magnitude faster than higher optimization levels. The generated code runs
-    an order of magnitude faster than interpretation and runs even faster than
-    LLVM -O0. Thus, copy-and-patch can effectively replace both interpreters
-    and LLVM -O0, making code generation more effective in compile-time
-    sensitive applications.
+    We demonstrate two use cases of copy-and-patch: a compiler for a high-level
+    C-like language intended for metaprogramming and a compiler for WebAssembly.
+    Our high-level language compiler has negligible compilation cost: it produces
+    code from an AST in less time than it takes to construct the AST. We have
+    implemented an SQL database query compiler on top of this metaprogramming
+    system and show that on TPC-H database benchmarks, copy-and-patch generates
+    code two orders of magnitude faster than LLVM -O0 and three orders of
+    magnitude faster than higher optimization levels. The generated code runs an
+    order of magnitude faster than interpretation and 14% faster than LLVM -O0.
+    Our WebAssembly compiler generates code 4.9X-6.5X faster than Liftoff, the
+    WebAssembly baseline compiler in Google Chrome. The generated code also
+    outperforms Liftoff's by 39%-63% on the Coremark and PolyBenchC WebAssembly
+    benchmarks.
     </p>"
-  venue: "arxiv"
-  issue: "2011.13127"
-  year: 2020
-  month: November 
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 5
+  issue: OOPSLA
+  year: 2021
+  month: November
   authors:
     - xu
     - kjolstad
-  pdf: /publications/copypatch.pdf
+  pdf: /publications/copy-and-patch.pdf
 
 oopsla20:
   title: A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra
