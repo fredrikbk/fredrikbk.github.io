@@ -1,5 +1,5 @@
 oopsla21array:
-  title: Sparse Array Programming
+  title: Compilation of Sparse Array Programming Models 
   abstract: "<p>
     This paper shows how to compile sparse array programming languages. A sparse array 
     programming language is an array programming language that supports element-wise 
@@ -31,6 +31,7 @@ oopsla21array:
     - henry
     - hsu
     - yadav
+    - chou
     - olukotun
     - amarasinghe
     - kjolstad
