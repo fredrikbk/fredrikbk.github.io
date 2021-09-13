@@ -36,9 +36,10 @@ oopsla21array:
     - amarasinghe
     - kjolstad
   appendix: /publications/Sparse_Array_Programming_APPENDIX.pdf
+  pdf: /publications/Sparse_Array_Programming.pdf
 
 copypatch20:
-  title: Copy-and-Patch Binary Code Generation
+  title: Copy-and-Patch Compilation
   abstract: "<p>
     Runtime compilation of runtime-constructed code is becoming standard
     practice in libraries, DSLs, and database management systems. Since
