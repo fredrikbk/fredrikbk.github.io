@@ -35,6 +35,11 @@ oopsla21array:
     - olukotun
     - amarasinghe
     - kjolstad
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 5
+  issue: OOPSLA
+  year: 2021
+  month: November
   appendix: /publications/Sparse_Array_Programming_APPENDIX.pdf
   pdf: /publications/Sparse_Array_Programming.pdf
 
