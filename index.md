@@ -47,7 +47,7 @@ sparse iteration theory.
 <ul>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
-  <li>Haoran Xu</li>
+  <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
   <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
 </ul>
 
