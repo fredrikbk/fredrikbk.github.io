@@ -79,6 +79,7 @@ copy-and-patch:
   authors:
     - xu
     - kjolstad
+  appendix: /publications/copy-and-patch-appendix.pdf
   pdf: /publications/copy-and-patch.pdf
 
 oopsla20:
