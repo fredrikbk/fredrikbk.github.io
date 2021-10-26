@@ -76,6 +76,7 @@ copy-and-patch:
   issue: OOPSLA
   year: 2021
   month: November
+  award: "Distinguished Paper Award"
   authors:
     - xu
     - kjolstad
@@ -418,7 +419,7 @@ oopsla17:
   issue: OOPSLA
   year: 2017
   month: October
-  award: "Distinguished Paper Award" # (6/66)
+  award: "Distinguished Paper Award"
   authors:
     - kjolstad 
     - kamil
