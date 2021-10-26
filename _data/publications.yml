@@ -37,7 +37,7 @@ copy-and-patch:
     - kjolstad
   appendix: /publications/copy-and-patch-appendix.pdf
   pdf: /publications/copy-and-patch.pdf
-  movie: https://youtu.be/0wJsGWA5pTU
+  movie: https://youtu.be/PaQJcBdwG9Y
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/PaQJcBdwG9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 oopsla21array:
