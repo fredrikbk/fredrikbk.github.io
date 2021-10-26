@@ -85,8 +85,8 @@ oopsla21array:
   appendix: /publications/Sparse_Array_Programming_APPENDIX.pdf
   pdf: /publications/Sparse_Array_Programming.pdf
   movie: https://youtu.be/sY_jEfaP8f4 
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/PaQJcBdwG9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/sY_jEfaP8f4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    
 oopsla20:
   title: A Sparse Iteration Space Transformation Framework for Sparse Tensor Algebra
   abstract: "<p>
