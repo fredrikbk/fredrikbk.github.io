@@ -133,8 +133,8 @@ oopsla20:
     - kjolstad
   pdf: /publications/taco-scheduling.pdf
   movie: https://youtu.be/0wJsGWA5pTU
-  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/PaQJcBdwG9Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/0wJsGWA5pTU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
 aha20:
   title: Creating an Agile Hardware Design Flow
   abstract: "<p>
