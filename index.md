@@ -12,7 +12,7 @@ layout: home
 Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: 440 Gates
+Office: 486 Gates
 <a href="mailto:kjolstad@stanford.edu">kjolstad@cs.stanford.edu</a><br/>
 <!-- <a href="/assets/kjolstad-cv.pdf">Curriculum Vitae</a> -->
 </td>
