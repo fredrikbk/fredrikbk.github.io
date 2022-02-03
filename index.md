@@ -100,17 +100,3 @@ sparse iteration theory.
 {% endfor %}
 </table>
 
-
-<h2 class="tableheading">Press</h2>
-
-<table border="0">
-{%- for press_keyval in site.data.press %}
-  {%- assign press= press_keyval[1] -%}
-  <tr>
-  <td> 
-    <b><a href="{{press.url}}">{{press.title}}</a></b><br/>{{press.venue}}
-  </td>
-  </tr>
-{% endfor %}
-</table>
-
