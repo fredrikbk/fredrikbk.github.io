@@ -15,7 +15,7 @@ pldi22-distal:
     3.7x (with a 45.7x outlier) on higher order tensor operations.
   </p>"
   venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation"
-  venuenote: "PLDI to appear"
+  venuenote: "PLDI, conditionally accepted"
   year: 2022
   month: June
   authors:
@@ -50,7 +50,7 @@ pldi22-autoscheduling:
     the default schedules.
   </p>"
   venue: "ACM SIGPLAN Conference on Programming Language Design and Implementation"
-  venuenote: "PLDI to appear"
+  venuenote: "PLDI, conditionally accepted"
   year: 2022
   month: June
   authors:
