@@ -12,7 +12,7 @@ layout: home
 Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: 486 Gates
+Office: Gates 486
 <a href="mailto:kjolstad@cs.stanford.edu">kjolstad@cs.stanford.edu</a><br/>
 <a href="kjolstad-cv.pdf">CV</a>
 </td>
@@ -67,7 +67,11 @@ sparse iteration theory.
           {%- if author == "kjolstad" %}
             <font color="#000000">{{ site.data.authors[author].name }}</font>
           {%- else %}
-            <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+            {%- if site.data.authors[author].site %}
+              <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+            {%- else %}
+              <font color="#464646">{{ site.data.authors[author].name }}</font>
+            {%- endif -%}
           {%- endif -%}
           {%- if forloop.last == false and forloop.length > 2 -%}
             ,
