@@ -23,7 +23,6 @@ hoefler:
 
 schneider:
   name: Timo Schneider
-  site: https://www.researchgate.net/profile/Timo_Schneider2
 
 kamil:
   name: Shoaib Kamil
@@ -35,15 +34,14 @@ ragan-kelley:
 
 levin:
   name: David I. W. Levin
-  site: http://diwlevin.webfactional.com/researchdb/
+  site: http://142.93.146.228/researchdb/
 
 sueda:
   name: Shinjiro Sueda
-  site: http://www.calpoly.edu/~ssueda/
+  site: https://people.engr.tamu.edu/sueda/index.html
 
 chen:
   name: Desai Chen
-  site: http://people.csail.mit.edu/desaic/
 
 vouga:
   name: Etienne Vouga
