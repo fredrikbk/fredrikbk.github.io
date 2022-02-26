@@ -1,5 +1,5 @@
 pldi22-distal:
-  title: DISTAL: The Distributed Tensor Algebra Compiler
+  title: "DISTAL: The Distributed Tensor Algebra Compiler"
   abstract: "<p>
     We introduce DISTAL, a compiler for dense tensor algebra that targets
     modern distributed and heterogeneous systems. DISTAL lets users
