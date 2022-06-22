@@ -45,6 +45,7 @@ sparse iteration theory.
 <h2 class="tableheading">PhD Students</h2>
 
 <ul>
+  <li>James Dong</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
   <li><a href="https://www.linkedin.com/in/shiv-sundram-649a6765">Shiv Sundram</a></li>
