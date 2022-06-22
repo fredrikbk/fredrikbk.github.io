@@ -22,6 +22,7 @@ pldi22-distal:
     - yadav
     - aiken
     - kjolstad
+  pdf: /publications/distal.pdf
 
 pldi22-autoscheduling:
   title: Autoscheduling for Sparse Tensor Algebra with an Asymptotic Cost Model
@@ -57,6 +58,7 @@ pldi22-autoscheduling:
     - ahrens
     - kjolstad
     - amarasinghe
+  pdf: /publications/asymptotic-autoscheduling.pdf
 
 copy-and-patch:
   title: Copy-and-Patch Compilation
