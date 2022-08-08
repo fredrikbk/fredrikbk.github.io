@@ -1,3 +1,27 @@
+taco22-mlir-sparse:
+  title: "Compiler Support for Sparse Tensor Computations in MLIR"
+  abstract: "<p>
+    Sparse tensors arise in problems in science, engineering, machine learning,
+    and data analytics. Programs that operate on such tensors can exploit
+    sparsity to reduce storage requirements and computational time. Developing
+    and maintaining sparse software by hand, however, is a complex and
+    error-prone task. Therefore, we propose treating sparsity as a property of
+    tensors, not a tedious implementation task, and letting a sparse compiler
+    generate sparse code automatically from a sparsity-agnostic definition of
+    the computation. This paper discusses integrating this idea into MLIR.
+  </p>"
+  venue: "ACM Transactions on Architecture and Code Optimization"
+  venuenote: "TACO"
+  year: 2022
+  month: June
+  authors:
+    - bik
+    - koanantakool
+    - shpeisman
+    - vasilache
+    - zheng
+    - kjolstad
+
 pldi22-distal:
   title: "DISTAL: The Distributed Tensor Algebra Compiler"
   abstract: "<p>
