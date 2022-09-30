@@ -72,7 +72,10 @@ lugato:
 
 ahrens:
   name: Peter Ahrens
-  site: https://peterahrens.io
+
+willow:
+  name: Willow Ahrens
+  site: http://willowahrens.io/
 
 mueller:
   name: Suzanne Mueller
