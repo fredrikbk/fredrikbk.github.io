@@ -136,7 +136,7 @@ sparse iteration model.
               ,
             {%- endif %}
           {%- endfor -%}<br/>
-          <a href="https://arxiv.org/abs/{{pub.venuenote}}"><i>{{ pub.venue }}:{{ pub.venuenote }}</i><\a>, {{ pub.month }} {{ pub.year }}<br/>
+          <a href="https://arxiv.org/abs/{{pub.venuenote}}"><i>{{ pub.venue }}:{{ pub.venuenote }}</i></a>, {{ pub.month }} {{ pub.year }}<br/>
           {%- if pub.award -%}
             <i><b>{{ pub.award }}</b></i><br/>
           {%- endif -%}
