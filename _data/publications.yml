@@ -12,7 +12,8 @@ looplets:
     intersections), and new operations over structured data (such as
     concatenation or convolution).
   </p>"
-  venue: "arxiv"
+  venue: "arXiv"
+  venuenote: "2209.05250"
   year: 2022
   month: September
   authors:

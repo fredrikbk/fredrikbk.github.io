@@ -62,7 +62,7 @@ sparse iteration model.
   {% for pub_keyval in site.data.publications %}
     <tr>
       {%- assign pub = pub_keyval[1] -%}
-        {%- if pub.venue != "arxiv" %}
+        {%- if pub.venue != "arXiv" %}
         <td>
           <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
           {%- for author in pub.authors -%}
@@ -116,7 +116,7 @@ sparse iteration model.
   {% for pub_keyval in site.data.publications %}
     <tr>
       {%- assign pub = pub_keyval[1] -%}
-        {%- if pub.venue == "arxiv" %}
+        {%- if pub.venue == "arXiv" %}
         <td>
           <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
           {%- for author in pub.authors -%}
@@ -138,7 +138,7 @@ sparse iteration model.
           {%- endfor -%}<br/>
           <i>{{ pub.venue }}
           {%- if pub.venuenote %}
-          ({{ pub.venuenote }})
+          :{{ pub.venuenote }}
           {%- endif -%}
           {%- if pub.volume -%}
           , Volume {{ pub.volume }}
