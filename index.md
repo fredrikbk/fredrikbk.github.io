@@ -48,7 +48,7 @@ sparse iteration model.
   <li>James Dong</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
-  <li>Rubens Lacouture</li>
+  <li><a href="https://www.linkedin.com/in/lrubens">Rubens Lacouture</a></li>
   <li><a href="https://www.linkedin.com/in/shiv-sundram-649a6765">Shiv Sundram</a></li>
   <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
   <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
@@ -62,48 +62,50 @@ sparse iteration model.
   {% for pub_keyval in site.data.publications %}
     <tr>
       {%- assign pub = pub_keyval[1] -%}
-      <td>
-        <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
-        {%- for author in pub.authors -%}
-          {%- if forloop.last == true and forloop.length > 1 %}
-            and
-          {%- endif %}
-          {%- if author == "kjolstad" %}
-            <font color="#000000">{{ site.data.authors[author].name }}</font>
-          {%- else %}
-            {%- if site.data.authors[author].site %}
-              <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+        {%- if {pub.venue | downcase} != "arxiv" %}
+        <td>
+          <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
+          {%- for author in pub.authors -%}
+            {%- if forloop.last == true and forloop.length > 1 %}
+              and
+            {%- endif %}
+            {%- if author == "kjolstad" %}
+              <font color="#000000">{{ site.data.authors[author].name }}</font>
             {%- else %}
-              <font color="#464646">{{ site.data.authors[author].name }}</font>
+              {%- if site.data.authors[author].site %}
+                <a href="{{- site.data.authors[author].site -}}" style="color: #464646">{{ site.data.authors[author].name }}</a>
+              {%- else %}
+                <font color="#464646">{{ site.data.authors[author].name }}</font>
+              {%- endif -%}
             {%- endif -%}
+            {%- if forloop.last == false and forloop.length > 2 -%}
+              ,
+            {%- endif %}
+          {%- endfor -%}<br/>
+          <i>{{ pub.venue }}
+          {%- if pub.venuenote %}
+          ({{ pub.venuenote }})
           {%- endif -%}
-          {%- if forloop.last == false and forloop.length > 2 -%}
-            ,
-          {%- endif %}
-        {%- endfor -%}<br/>
-        <i>{{ pub.venue }}
-        {%- if pub.venuenote %}
-        ({{ pub.venuenote }})
-        {%- endif -%}
-        {%- if pub.volume -%}
-        , Volume {{ pub.volume }}
-        {%- endif -%}
-        {%- if pub.issue -%}
-        , Issue {{ pub.issue }}
-        {%- endif -%}
-        </i>, {{ pub.month }} {{ pub.year }}<br/>
-        {%- if pub.award -%}
-          <i><b>{{ pub.award }}</b></i><br/>
-        {%- endif -%}
-      </td>
-      <td valign="top" width="20">
-        {% if pub.pdf %}
-          <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
-        {% endif %}
-        {% if pub.movie %}
-          <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
-        {% endif %}
-      </td>
+          {%- if pub.volume -%}
+          , Volume {{ pub.volume }}
+          {%- endif -%}
+          {%- if pub.issue -%}
+          , Issue {{ pub.issue }}
+          {%- endif -%}
+          </i>, {{ pub.month }} {{ pub.year }}<br/>
+          {%- if pub.award -%}
+            <i><b>{{ pub.award }}</b></i><br/>
+          {%- endif -%}
+        </td>
+        <td valign="top" width="20">
+          {% if pub.pdf %}
+            <a href="{{ pub.pdf }}"><img src="/assets/pdf.png" alt="pdf" /></a>
+          {% endif %}
+          {% if pub.movie %}
+            <a href="{{ pub.movie }}"><img src="/assets/movie.png" alt="youtube" /></a>
+          {% endif %}
+        </td>
+      {% endif %}
     </tr>
 {% endfor %}
 </table>

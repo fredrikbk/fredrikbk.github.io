@@ -1,3 +1,26 @@
+looplets:
+  title: "Looplets: A Language For Structured Coiteration"
+  abstract: "<p>
+    Real world arrays often contain underlying structure, such as sparsity,
+    runs of repeated values, or symmetry. Specializing for structure yields
+    significant speedups. But automatically generating efficient code for
+    structured data is challenging, especially when arrays with different
+    structure interact. We show how to abstract over array structures so that
+    the compiler can generate code to coiterate over any combination of them.
+    Our technique enables new array formats (such as 1DVBL for irregular
+    clustered sparsity), new iteration strategies (such as galloping
+    intersections), and new operations over structured data (such as
+    concatenation or convolution).
+  </p>"
+  venue: "arXiv"
+  year: 2022
+  month: September
+  authors:
+    - willow
+    - donenfeld
+    - kjolstad
+    - amarasinghe
+
 sc22-spdistal:
   title: "SpDISTAL: Compiling Distributed Sparse Tensor Computations"
   abstract: "<p>
