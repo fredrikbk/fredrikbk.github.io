@@ -39,7 +39,7 @@ parallel computing, software engineering, and performance engineering.
 My thesis on <a href="/publications/kjolstad-thesis.pdf">Sparse
 Tensor Algebra Compilation</a> is the best place to start reading
 about the ideas behind the tensor algebra compiler (taco) and
-sparse iteration theory.
+sparse iteration model.
 
 
 <h2 class="tableheading">PhD Students</h2>
@@ -48,6 +48,7 @@ sparse iteration theory.
   <li>James Dong</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li>Scott Kovach</li>
+  <li>Rubens Lacouture</li>
   <li><a href="https://www.linkedin.com/in/shiv-sundram-649a6765">Shiv Sundram</a></li>
   <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
   <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
