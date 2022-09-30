@@ -62,7 +62,7 @@ sparse iteration model.
   {% for pub_keyval in site.data.publications %}
     <tr>
       {%- assign pub = pub_keyval[1] -%}
-        {%- if {pub.venue | downcase} != "arxiv" %}
+        {%- if pub.venue != "arxiv" %}
         <td>
           <b><a href="{{pub_keyval[0]}}.html" style="color: #464646">{{ pub.title }}</a></b><br/>
           {%- for author in pub.authors -%}
