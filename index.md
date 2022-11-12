@@ -111,7 +111,7 @@ sparse iteration model.
 {% endfor %}
 </table>
 
-<h2 class="tableheading">Unpublished arXiv Papers</h2>
+<!-- <h2 class="tableheading">Unpublished arXiv Papers</h2>
 
 <table border="0">
   {% for pub_keyval in site.data.publications %}
@@ -154,3 +154,4 @@ sparse iteration model.
     </tr>
 {% endfor %}
 </table>
+-->
