@@ -1,66 +1,3 @@
-aha22:
-  title: "Aha: An agile approach to the design of coarse-grained reconfigurable accelerators and compilers"
-  abstract: "<p>
-    With the slowing of Moore’s law, computer architects have turned to
-    domain-speciic hardware specialization to continue improving the
-    performance and eiciency of computing systems. However, specialization
-    typically entails signiicant modii- cations to the software stack to
-    properly leverage the updated hardware. The lack of a structured approach
-    for updating both the compiler and the accelerator in tandem has impeded
-    many attempts to systematize this procedure. We propose a new approach to
-    enable lexible and evolvable domain-speciic hardware specialization based
-    on coarse-grained reconigurable arrays (CGRAs). Our agile methodology
-    employs a combination of new programming languages and formal methods to
-    automatically generate the accelerator hardware and its compiler from a
-    single source of truth. This enables the creation of design-space
-    exploration frameworks that automatically generate accelerator
-    architectures that approach the eiciencies of hand-designed accelerators,
-    with a signiicantly lower design efort for both hardware and compiler
-    generation. Our current system accelerates dense linear algebra
-    applications, but is modular and can be extended to support other domains.
-    Our methodology has the potential to signiicantly improve the productivity
-    of hardware-software engineering teams and enable quicker customization and
-    deployment of complex accelerator-rich computing systems.
-  </p>"
-  venue: "ACM Transactions on Embedded Computing Systems"
-  venuenote: "TECS"
-  year: 2022
-  month: April
-  authors:
-    - koul
-    - melchert
-    - sreedhar
-    - truong
-    - nyengele
-    - zhang
-    - liu
-    - setter
-    - chen2
-    - mei 
-    - strange
-    - daly
-    - donovick
-    - carsello
-    - kong
-    - feng
-    - huff
-    - nayak 
-    - setaluri
-    - thomas
-    - bhagdikar
-    - durst
-    - myers
-    - tsiskaridze
-    - richardson
-    - bahr
-    - fatahalian
-    - hanrahan
-    - barrett
-    - horowitz
-    - torng
-    - kjolstad
-    - raina
-
 looplets:
   title: "Looplets: A Language For Structured Coiteration"
   abstract: "<p>
@@ -195,6 +132,69 @@ pldi22-autoscheduling:
     - kjolstad
     - amarasinghe
   pdf: /publications/asymptotic-autoscheduling.pdf
+
+aha22:
+  title: "Aha: An agile approach to the design of coarse-grained reconfigurable accelerators and compilers"
+  abstract: "<p>
+    With the slowing of Moore’s law, computer architects have turned to
+    domain-speciic hardware specialization to continue improving the
+    performance and eiciency of computing systems. However, specialization
+    typically entails signiicant modii- cations to the software stack to
+    properly leverage the updated hardware. The lack of a structured approach
+    for updating both the compiler and the accelerator in tandem has impeded
+    many attempts to systematize this procedure. We propose a new approach to
+    enable lexible and evolvable domain-speciic hardware specialization based
+    on coarse-grained reconigurable arrays (CGRAs). Our agile methodology
+    employs a combination of new programming languages and formal methods to
+    automatically generate the accelerator hardware and its compiler from a
+    single source of truth. This enables the creation of design-space
+    exploration frameworks that automatically generate accelerator
+    architectures that approach the eiciencies of hand-designed accelerators,
+    with a signiicantly lower design efort for both hardware and compiler
+    generation. Our current system accelerates dense linear algebra
+    applications, but is modular and can be extended to support other domains.
+    Our methodology has the potential to signiicantly improve the productivity
+    of hardware-software engineering teams and enable quicker customization and
+    deployment of complex accelerator-rich computing systems.
+  </p>"
+  venue: "ACM Transactions on Embedded Computing Systems"
+  venuenote: "TECS"
+  year: 2022
+  month: April
+  authors:
+    - koul
+    - melchert
+    - sreedhar
+    - truong
+    - nyengele
+    - zhang
+    - liu
+    - setter
+    - chen2
+    - mei 
+    - strange
+    - daly
+    - donovick
+    - carsello
+    - kong
+    - feng
+    - huff
+    - nayak 
+    - setaluri
+    - thomas
+    - bhagdikar
+    - durst
+    - myers
+    - tsiskaridze
+    - richardson
+    - bahr
+    - fatahalian
+    - hanrahan
+    - barrett
+    - horowitz
+    - torng
+    - kjolstad
+    - raina
 
 copy-and-patch:
   title: Copy-and-Patch Compilation
