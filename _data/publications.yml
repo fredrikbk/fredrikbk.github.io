@@ -1,4 +1,4 @@
-looplets:
+cgo23:
   title: "Looplets: A Language For Structured Coiteration"
   abstract: "<p>
     Real world arrays often contain underlying structure, such as sparsity,
