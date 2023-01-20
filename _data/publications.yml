@@ -1,3 +1,33 @@
+asplos23:
+  title: "The Sparse Abstract Machine"
+  abstract: "<p>
+    We propose the Sparse Abstract Machine (SAM), an intermediate
+    representation and abstract machine model for targeting sparse tensor
+    algebra to reconfigurable and fixed-function spatial dataflow accelerators.
+    SAM defines a streaming abstraction with sparse primitives that encompass a
+    large space of scheduled tensor algebra expressions. SAM dataflow graphs
+    naturally separate tensor formats from algorithms and is expressive enough
+    to incorporate many sparse-iteration and hardware-specific optimizations.
+    We show an automatic compilation technique from a high-level language to
+    SAM and a set of hardware primitives which implement it. We evaluate the
+    generality and extensibility of our sparse abstract machine, explore the
+    performance space of sparse tensor algebra optimizations using SAM, and
+    provide an example implementation of our SAM architecture.
+  </p>"
+  venue: "Architectural Support for Programming Languages and Operating Systems (accepted)"
+  venuenote: "ASPLOS"
+  year: 2023
+  month: March
+  authors:
+    - hsu
+    - strange
+    - sharma 
+    - won
+    - olukotun
+    - emer
+    - horowitz
+    - kjolstad
+
 cgo23:
   title: "Looplets: A Language For Structured Coiteration"
   abstract: "<p>

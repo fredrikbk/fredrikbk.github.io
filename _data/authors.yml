@@ -209,6 +209,9 @@ yadav:
 olukotun:
   name: Kunle Olukotun
 
+emer:
+  name: Joel Emer
+
 aiken:
   name: Alex Aiken
   site: http://theory.stanford.edu/~aiken/
@@ -236,3 +239,9 @@ chen2:
 
 mei:
   name: Yuchen Mei
+
+won:
+  name: Jaeyeon Won
+
+sharma:
+  name: Ritvik Sharma
