@@ -56,6 +56,7 @@ aha23:
   venuenote: "TECS"
   year: 2023
   month: January
+  pdf: /publications/aha-tecs.pdf
   authors:
     - koul
     - melchert
@@ -191,6 +192,7 @@ sc22-spdistal:
   venuenote: "SC"
   year: 2022
   month: November
+  pdf: /publications/spdistal.pdf
   authors:
     - yadav
     - aiken
@@ -211,7 +213,8 @@ taco22-mlir-sparse:
   venue: "ACM Transactions on Architecture and Code Optimization"
   venuenote: "TACO"
   year: 2022
-  month: August
+  month: September
+  pdf: /publications/mlir-sparse.pdf
   authors:
     - bik
     - koanantakool
