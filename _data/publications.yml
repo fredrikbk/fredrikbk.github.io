@@ -1,18 +1,7 @@
 asplos23:
   title: "The Sparse Abstract Machine"
   abstract: "<p>
-    We propose the Sparse Abstract Machine (SAM), an intermediate
-    representation and abstract machine model for targeting sparse tensor
-    algebra to reconfigurable and fixed-function spatial dataflow accelerators.
-    SAM defines a streaming abstraction with sparse primitives that encompass a
-    large space of scheduled tensor algebra expressions. SAM dataflow graphs
-    naturally separate tensor formats from algorithms and is expressive enough
-    to incorporate many sparse-iteration and hardware-specific optimizations.
-    We show an automatic compilation technique from a high-level language to
-    SAM and a set of hardware primitives which implement it. We evaluate the
-    generality and extensibility of our sparse abstract machine, explore the
-    performance space of sparse tensor algebra optimizations using SAM, and
-    provide an example implementation of our SAM architecture.
+    We propose the Sparse Abstract Machine (SAM), an innovative intermediate representation and abstract machine model designed to target sparse tensor algebra to reconfigurable and fixed-function spatial dataflow accelerators. SAM offers a streaming abstraction with sparse primitives, allowing for the scheduled execution of a wide range of tensor algebra expressions. This dataflow graph separates tensor formats from algorithms and provides a framework for a variety of sparse-iteration and hardware-specific optimizations. Through an automatic compilation technique from a high-level language to SAM and a set of hardware primitives to implement it, we demonstrate the generality, extensibility, and performance of our sparse abstract machine. We further provide an example implementation of the SAM architecture.
   </p>"
   venue: "Architectural Support for Programming Languages and Operating Systems (accepted)"
   venuenote: "ASPLOS"
@@ -31,26 +20,9 @@ asplos23:
 aha23:
   title: "AHA: An agile approach to the design of coarse-grained reconfigurable accelerators and compilers"
   abstract: "<p>
-    With the slowing of Moore’s law, computer architects have turned to
-    domain-speciic hardware specialization to continue improving the
-    performance and eiciency of computing systems. However, specialization
-    typically entails signiicant modii- cations to the software stack to
-    properly leverage the updated hardware. The lack of a structured approach
-    for updating both the compiler and the accelerator in tandem has impeded
-    many attempts to systematize this procedure. We propose a new approach to
-    enable lexible and evolvable domain-speciic hardware specialization based
-    on coarse-grained reconigurable arrays (CGRAs). Our agile methodology
-    employs a combination of new programming languages and formal methods to
-    automatically generate the accelerator hardware and its compiler from a
-    single source of truth. This enables the creation of design-space
-    exploration frameworks that automatically generate accelerator
-    architectures that approach the eiciencies of hand-designed accelerators,
-    with a signiicantly lower design efort for both hardware and compiler
-    generation. Our current system accelerates dense linear algebra
-    applications, but is modular and can be extended to support other domains.
-    Our methodology has the potential to signiicantly improve the productivity
-    of hardware-software engineering teams and enable quicker customization and
-    deployment of complex accelerator-rich computing systems.
+    With the slowing of Moore's Law, computer architects have increasingly leveraged the potential of domain-specific hardware specialization to continue delivering improved performance and efficiency of computing systems. This, however, has typically involved substantial modifications to the software stack in order to maximize the benefits of the enhanced hardware. As a result, the absence of a structured approach to simultaneously update the compiler and the accelerator has hindered many of these efforts to optimize this procedure. 
+
+This paper introduces a novel approach to enable flexible and adaptable domain-specific hardware specialization based on coarse-grained reconfigurable arrays (CGRAs). Our agile methodology combines new programming languages and formal methods to automatically generate the accelerator hardware and its associated compiler from a single source. This approach allows for the automation of design-space exploration frameworks, which generate accelerator architectures that are capable of delivering efficiencies comparable to those of hand-crafted accelerators, while significantly reducing the design effort for both hardware and compiler generation. Our current system has been used to accelerate dense linear algebra applications, but can also be extended to support other domains. Our methodology holds the potential to greatly improve the productivity of hardware-software engineering teams and enable quicker customization and deployment of complex accelerator-rich computing systems.
   </p>"
   venue: "ACM Transactions on Embedded Computing Systems"
   venuenote: "TECS"
