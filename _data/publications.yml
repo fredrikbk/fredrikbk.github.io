@@ -80,6 +80,86 @@ asplos23:
     - horowitz
     - kjolstad
 
+taco23-ubuffer:
+  title: "Unified Buffer: Compiling Image Processing and Machine Learning Applications to Push-Memory Accelerators"
+  abstract: "<p>
+    Image processing and machine learning applications benefit
+    tremendously from hardware acceleration. Existing compilers
+    target either FPGAs, which sacrifice power and performance for
+    programmability, or ASICs, which become obsolete as
+    applications change. Programmable domain-specific
+    accelerators, such as coarse-grained reconfigurable arrays
+    (CGRAs), have emerged as a promising middle-ground, but they
+    have traditionally been difficult compiler targets since they
+    use a different memory abstraction. In contrast to CPUs and
+    GPUs, the memory hierarchies of domain-specific accelerators
+    use push memories: memories that send input data streams to
+    computation kernels or to higher or lower levels in the memory
+    hierarchy, and store the resulting output data streams. To address
+    the compilation challenge caused by push memories, we propose that
+    the representation of these memories in the compiler be altered to
+    directly represent them by combining storage with address
+    generation and control logic in a single structure—a unified
+    buffer.
+    </p><p>
+    The unified buffer abstraction enables the compiler to separate
+    generic push memory optimizations from the mapping to specific
+    memory implementations in the backend. This separation allows our
+    compiler to map high-level Halide applications to different CGRA
+    memory designs, including some with a ready-valid interface. The
+    separation also opens the opportunity for optimizing push memory
+    elements on reconfigurable arrays. Our optimized memory
+    implementation, the Physical Unified Buffer (PUB), uses a
+    wide-fetch, single-port SRAM macro with built-in address
+    generation logic to implement a buffer with two read and two write
+    ports. It is 18% smaller and consumes 31% less energy than a
+    physical buffer implementation using a dual-port memory that only
+    supports two ports.
+    </p><p>
+    Finally, our system evaluation shows that enabling a compiler to
+    support CGRAs leads to performance and energy benefits. Over a
+    wide range of image processing and machine learning applications,
+    our CGRA achieves 4.7x better runtime and 3.5: better
+    energy-efficiency compared to an FPGA.
+  </p>"
+  venue: "ACM Transactions on Architecture and Code Optimization"
+  venuenote: "TACO"
+  year: 2023
+  month: March 
+  authors:
+    - liu
+    - setter 
+    - huff
+    - strange
+    - feng
+    - horowitz
+    - raina
+    - kjolstad
+
+cgo23:
+  title: "Looplets: A Language For Structured Coiteration"
+  abstract: "<p>
+    Real world arrays often contain underlying structure, such as sparsity,
+    runs of repeated values, or symmetry. Specializing for structure yields
+    significant speedups. But automatically generating efficient code for
+    structured data is challenging, especially when arrays with different
+    structure interact. We show how to abstract over array structures so that
+    the compiler can generate code to coiterate over any combination of them.
+    Our technique enables new array formats (such as 1DVBL for irregular
+    clustered sparsity), new iteration strategies (such as galloping
+    intersections), and new operations over structured data (such as
+    concatenation or convolution).
+  </p>"
+  venue: "International Symposium on Code Generation and Optimization (accepted)"
+  venuenote: "CGO"
+  year: 2023
+  month: February
+  authors:
+    - willow
+    - donenfeld
+    - kjolstad
+    - amarasinghe
+
 aha23:
   title: "AHA: An agile approach to the design of coarse-grained reconfigurable accelerators and compilers"
   abstract: "<p>
@@ -143,86 +223,6 @@ aha23:
     - torng
     - kjolstad
     - raina
-
-cgo23:
-  title: "Looplets: A Language For Structured Coiteration"
-  abstract: "<p>
-    Real world arrays often contain underlying structure, such as sparsity,
-    runs of repeated values, or symmetry. Specializing for structure yields
-    significant speedups. But automatically generating efficient code for
-    structured data is challenging, especially when arrays with different
-    structure interact. We show how to abstract over array structures so that
-    the compiler can generate code to coiterate over any combination of them.
-    Our technique enables new array formats (such as 1DVBL for irregular
-    clustered sparsity), new iteration strategies (such as galloping
-    intersections), and new operations over structured data (such as
-    concatenation or convolution).
-  </p>"
-  venue: "International Symposium on Code Generation and Optimization (accepted)"
-  venuenote: "CGO"
-  year: 2023
-  month: February
-  authors:
-    - willow
-    - donenfeld
-    - kjolstad
-    - amarasinghe
-
-taco22-ubuffer:
-  title: "Unified Buffer: Compiling Image Processing and Machine Learning Applications to Push-Memory Accelerators"
-  abstract: "<p>
-    Image processing and machine learning applications benefit
-    tremendously from hardware acceleration. Existing compilers
-    target either FPGAs, which sacrifice power and performance for
-    programmability, or ASICs, which become obsolete as
-    applications change. Programmable domain-specific
-    accelerators, such as coarse-grained reconfigurable arrays
-    (CGRAs), have emerged as a promising middle-ground, but they
-    have traditionally been difficult compiler targets since they
-    use a different memory abstraction. In contrast to CPUs and
-    GPUs, the memory hierarchies of domain-specific accelerators
-    use push memories: memories that send input data streams to
-    computation kernels or to higher or lower levels in the memory
-    hierarchy, and store the resulting output data streams. To address
-    the compilation challenge caused by push memories, we propose that
-    the representation of these memories in the compiler be altered to
-    directly represent them by combining storage with address
-    generation and control logic in a single structure—a unified
-    buffer.
-    </p><p>
-    The unified buffer abstraction enables the compiler to separate
-    generic push memory optimizations from the mapping to specific
-    memory implementations in the backend. This separation allows our
-    compiler to map high-level Halide applications to different CGRA
-    memory designs, including some with a ready-valid interface. The
-    separation also opens the opportunity for optimizing push memory
-    elements on reconfigurable arrays. Our optimized memory
-    implementation, the Physical Unified Buffer (PUB), uses a
-    wide-fetch, single-port SRAM macro with built-in address
-    generation logic to implement a buffer with two read and two write
-    ports. It is 18% smaller and consumes 31% less energy than a
-    physical buffer implementation using a dual-port memory that only
-    supports two ports.
-    </p><p>
-    Finally, our system evaluation shows that enabling a compiler to
-    support CGRAs leads to performance and energy benefits. Over a
-    wide range of image processing and machine learning applications,
-    our CGRA achieves 4.7x better runtime and 3.5: better
-    energy-efficiency compared to an FPGA.
-  </p>"
-  venue: "ACM Transactions on Architecture and Code Optimization"
-  venuenote: "TACO"
-  year: 2022
-  month: November
-  authors:
-    - liu
-    - setter 
-    - huff
-    - strange
-    - feng
-    - horowitz
-    - raina
-    - kjolstad
 
 sc22-spdistal:
   title: "SpDISTAL: Compiling Distributed Sparse Tensor Computations"
