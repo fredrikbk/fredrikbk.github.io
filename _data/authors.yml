@@ -1,3 +1,16 @@
+hellsten:
+  name: Erik Hellsten
+
+souza:
+  name: Artur Souza
+
+lenfers:
+  name: Johannes Lenfers
+
+lacouture:
+  name: Rubens Lacouture
+  site: https://www.linkedin.com/in/lrubens/
+
 kovach:
   name: Scott Kovach
 
@@ -210,6 +223,14 @@ xu:
 henry: 
   name: Rawn Henry
 
+ejjeh:
+  name: Adel Ejjeh
+  site: https://www.linkedin.com/in/adel-ejjeh
+
+steuwer:
+  name: Michel Steuwer
+  site: https://michel.steuwer.info/
+
 hsu: 
   name: Olivia Hsu
   site: https://weiya711.github.io/
@@ -217,6 +238,10 @@ hsu:
 yadav: 
   name: Rohan Yadav
   site: https://rohany.github.io/
+
+nardi:
+  name: Luigi Nardi
+  site: https://cs.lth.se/luigi-nardi/
 
 olukotun:
   name: Kunle Olukotun
