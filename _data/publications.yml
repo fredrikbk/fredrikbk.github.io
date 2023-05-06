@@ -182,7 +182,7 @@ cgo23:
     intersections), and new operations over structured data (such as
     concatenation or convolution).
   </p>"
-  venue: "International Symposium on Code Generation and Optimization (accepted)"
+  venue: "International Symposium on Code Generation and Optimization"
   venuenote: "CGO"
   year: 2023
   month: February
