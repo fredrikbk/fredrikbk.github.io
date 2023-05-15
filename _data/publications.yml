@@ -76,6 +76,7 @@ pldi23-mosaic:
   venuenote: "PLDI"
   year: 2023
   month: June
+  award: "Distinguished Paper Award"
   authors:
     - bansal
     - hsu
