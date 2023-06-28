@@ -47,7 +47,7 @@ sparse iteration model.
 <ul>
   <li>James Dong</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
-  <li>Scott Kovach</li>
+  <li><a href="https://cutfree.net/">Scott Kovach</a></li>
   <li><a href="https://www.linkedin.com/in/lrubens">Rubens Lacouture</a> (with Kunle Olukotun)</li>
   <li><a href="https://rootjalex.github.io/">Alexander Root</a></li>
   <li><a href="https://shivsundram.github.io/">Shiv Sundram</a></li>
