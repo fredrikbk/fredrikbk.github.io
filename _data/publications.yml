@@ -343,6 +343,8 @@ taco22-mlir-sparse:
   year: 2022
   month: September
   pdf: /publications/mlir-sparse.pdf
+  movie: https://youtu.be/x-nHc3hBxHM?si=aYuF8sBMRtZZ3MAB&t=14
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/x-nHc3hBxHM?si=aYuF8sBMRtZZ3MAB&amp;start=14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
   authors:
     - bik
     - koanantakool
