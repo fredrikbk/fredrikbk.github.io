@@ -374,6 +374,8 @@ pldi22-distal:
     - aiken
     - kjolstad
   pdf: /publications/distal.pdf
+  movie: https://youtu.be/1dYngihnfFU?si=ZqhraHBAgJ573G6v 
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/1dYngihnfFU?si=ZqhraHBAgJ573G6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 pldi22-autoscheduling:
   title: Autoscheduling for Sparse Tensor Algebra with an Asymptotic Cost Model
