@@ -82,6 +82,8 @@ pldi23-etch:
   year: 2023
   month: June
   pdf: /publications/indexed-streams.pdf
+  movie: https://youtu.be/BSis3h_A51Y?si=owxeFuHEIeETsLQk&t=2270
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/BSis3h_A51Y?si=owxeFuHEIeETsLQk&amp;start=2270" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
   authors:
     - kovach
     - kolichala
