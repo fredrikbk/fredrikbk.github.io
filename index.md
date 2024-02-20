@@ -13,7 +13,7 @@ Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
 Office: Gates 486
-<a href="mailto:kjolstad@cs.stanford.edu">kjolstad@cs.stanford.edu</a><br/>
+<a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
 <a href="kjolstad-cv.pdf">CV</a>
 </td>
 </table>
