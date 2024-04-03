@@ -28,7 +28,7 @@ oopsla24recurrences:
     - usman
     - kjolstad
 
-pldi23-etch:
+pldi24:
   title: "Compilation of Modular and General Sparse Workspaces"
   abstract: "<p>
     Recent years have seen considerable work on compiling sparse tensor algebra
