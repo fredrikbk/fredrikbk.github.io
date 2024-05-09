@@ -45,7 +45,7 @@ sparse iteration model.
 <h2 class="tableheading">PhD Students</h2>
 
 <ul>
-  <li>James Dong</li>
+  <li><a href="https://cs.stanford.edu/people/dongj/">James Dong</a></li>
   <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a></li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li><a href="https://cutfree.net/">Scott Kovach</a></li>
