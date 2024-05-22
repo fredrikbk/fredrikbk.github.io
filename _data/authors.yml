@@ -1,6 +1,9 @@
 hellsten:
   name: Erik Hellsten
 
+ke:
+  name: Huifeng Ke
+
 genghan:
   name: Genghan Zhang
   site: https://zhang677.github.io/
@@ -193,6 +196,12 @@ niemetz:
 nyengele:
   name: Gedeon Nyengele
 
+balasingam:
+  name: Akhilesh Balasingam
+
+adivarahan:
+  name: Jayashree Adivarahan
+
 raina:
   name: Priyanka Raina
 
@@ -304,6 +313,9 @@ won:
 
 sharma:
   name: Ritvik Sharma
+
+xie:
+  name: Zhouhua Xie
 
 lee:
   name: Wonchan Lee

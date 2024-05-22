@@ -65,37 +65,47 @@ pldi24:
     - hsu
     - kjolstad
 
-asplos2024:
-  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
+vlsi24:
+  title: "Onyx: A 12nm 756 GOPS/W Coarse-Grained Reconfigurable Array for Accelerating Dense and Sparse Applications"
   abstract: "<p>
-    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
-    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
-    provides the flexibility needed to handle the requirements of modern autotuning
-    tasks. Particularly, it deals with permutation, ordered, and continuous
-    parameter types along with both known and unknown parameter constraints. To
-    reason about these parameter types and efficiently deliver high-quality code,
-    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
-    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
-    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
-    these domains, BaCO outperforms current state-of-the-art autotuners by
-    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
-    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
-    </p>"
-  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (accepted)"
-  venuenote: "ASPLOS"
+    Onyx is the first fully programmable accelerator for arbitrary sparse
+    tensor algebra kernels. Unlike prior work, it supports higher-order
+    tensors, multiple inputs, and fusion. It achieves this with a
+    coarse-grained reconfigurable array (CGRA) that has composable memory
+    primitives for storing compressed any-order tensors and compute primitives
+    that eliminate ineffectual computations in sparse expressions. Further,
+    Onyx improves dense image processing and machine learning (ML) with
+    application-specialized compute tiles, memory tiles optimized for affine
+    access patterns, and hybrid clock gating in the global buffer. We achieve
+    up to 565x better energy-delay product (EDP) for sparse kernels vs. CPUs
+    with sparse libraries, and up to 76% and 85% lower EDP for image processing
+    and ML, respectively, vs. Amber [1].
+  </p>"
+  venue: "IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)"
   year: 2024
-  month: April
+  month: June
   authors:
-    - hellsten
-    - souza
-    - lenfers
-    - lacouture
+    - koul
+    - strange
+    - melchert 
+    - carsello
+    - mei
     - hsu
-    - ejjeh
+    - kong
+    - chen2
+    - ke
+    - zhang
+    - liu
+    - nyengele
+    - balasingam
+    - adivarahan
+    - sharma
+    - xie
+    - torng
+    - emer
     - kjolstad
-    - steuwer
-    - olukotun
-    - nardi
+    - horowitz
+    - raina
 
 hpca24:
   title: "Revet: A Language and Compiler for Dataflow Threads"
@@ -223,6 +233,38 @@ pldi23-mosaic:
     - hsu
     - olukotun
     - kjolstad
+
+asplos2023b:
+  title: "BaCO: A Fast and Portable Bayesian Compiler Optimization Framework"
+  abstract: "<p>
+    We introduce the Bayesian Compiler Optimization framework (BaCO), a general
+    purpose autotuner for modern compilers targeting CPUs, GPUs, and FPGAs. BaCO
+    provides the flexibility needed to handle the requirements of modern autotuning
+    tasks. Particularly, it deals with permutation, ordered, and continuous
+    parameter types along with both known and unknown parameter constraints. To
+    reason about these parameter types and efficiently deliver high-quality code,
+    BaCO uses Bayesian optimization algorithms specialized towards the autotuning
+    domain. We demonstrate BaCO's effectiveness on three modern compiler systems:
+    TACO, RISE & ELEVATE, and HPVM2FPGA for CPUs, GPUs, and FPGAs respectively. For
+    these domains, BaCO outperforms current state-of-the-art autotuners by
+    delivering on average 1.39x-1.89x faster code with a tiny search budget, and
+    BaCO is able to reach expert-level performance 2.89x-8.77x faster.
+    </p>"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems"
+  venuenote: "ASPLOS"
+  year: 2023
+  month: April
+  authors:
+    - hellsten
+    - souza
+    - lenfers
+    - lacouture
+    - hsu
+    - ejjeh
+    - kjolstad
+    - steuwer
+    - olukotun
+    - nardi
 
 asplos23:
   title: "The Sparse Abstract Machine"
