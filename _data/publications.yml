@@ -18,7 +18,7 @@ oopsla24recurrences:
     automatically generates implementations from recurrences, data formats, and
     schedules, giving our system more generality than library approaches.
     </p>"
-  venue: "Proceedings of the ACM on Programming Languages (accepted)"
+  venue: "Proceedings of the ACM on Programming Languages"
   volume: 8
   issue: OOPSLA
   year: 2024
@@ -55,7 +55,7 @@ pldi24:
     memory usage, enabling tensor computations on data that would otherwise run
     out of memory.
   </p>"
-  venue: "Proceedings of the ACM on Programming Languages (accepted)"
+  venue: "Proceedings of the ACM on Programming Languages"
   volume: 8
   issue: PLDI 
   year: 2024
