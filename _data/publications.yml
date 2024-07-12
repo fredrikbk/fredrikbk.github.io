@@ -1,3 +1,48 @@
+isca24dam:
+  title: "The Dataflow Abstract Machine Simulator Framework"
+  abstract: "<p>
+    The growing interest in novel dataflow architectures
+    and streaming execution paradigms has created the need for a
+    simulator optimized for modeling dataflow systems.
+    To fill this need, we present three new techniques that make it
+    feasible to simulate complex systems consisting of thousands of
+    components. First, we introduce an interface based on Communi-
+    cating Sequential Processes which allows users to simultaneously
+    describe functional and timing characteristics. Second, we intro-
+    duce a scalable point-to-point synchronization scheme that avoids
+    global synchronization. Finally, we demonstrate a technique to
+    exploit slack in the simulated system, such as FIFOs, to increase
+    simulation parallelism.
+    We implement these techniques in the Dataflow Abstract
+    Machine (DAM), a parallel simulator framework for dataflow
+    systems. We demonstrate the benefits of using DAM by high-
+    lighting three case studies using the framework. First, we use
+    DAM directly as an exploration tool for streaming algorithms on
+    dataflow hardware. We simulate two different implementations
+    of the attention algorithm used in large language models, and
+    use DAM to show that the second implementation only requires
+    a constant amount of local memory. Second, we re-implement
+    a simulator for a sparse tensor algebra accelerator, resulting in
+    57% less code and a simulation speedup of up to four orders of
+    magnitude. Finally, we demonstrate a general technique for time-
+    multiplexing real hardware to simulate multiple virtual copies of
+    the hardware using DAM.
+    </p>"
+  venue: "International Symposium on Computer Architecture"
+  venuenote: "ISCA"
+  year: 2024
+  month: June
+  award: "Distinguished Artifact Award"
+  pdf: /publications/DAM_ISCA24.pdf
+  authors:
+    - zhang
+    - lacouture
+    - sohn
+    - mure
+    - qizheng
+    - kjolstad
+    - olukotun
+
 oopsla24recurrences:
   title: "Compiling Recurrences over Dense and Sparse Arrays"
   abstract: "<p>
