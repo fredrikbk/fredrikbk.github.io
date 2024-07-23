@@ -14,7 +14,7 @@ cgo25stardust:
     138x better performance on average than generated CPU kernels and 41x
     better performance on average than generated GPU kernels.
   </p>"
-  venue: "International Symposium on Code Generation and Optimization"
+  venue: "International Symposium on Code Generation and Optimization (to appear)"
   venuenote: "CGO"
   year: 2025
   month: March
@@ -46,7 +46,7 @@ oopsla24recurrences:
     automatically generates implementations from recurrences, data formats, and
     schedules, giving our system more generality than library approaches.
     </p>"
-  venue: "Proceedings of the ACM on Programming Languages"
+  venue: "Proceedings of the ACM on Programming Languages (to appear)"
   volume: 8
   issue: OOPSLA
   year: 2024
