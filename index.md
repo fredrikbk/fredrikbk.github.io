@@ -86,14 +86,6 @@ sparse iteration model.
             {%- endif %}
           {%- endfor -%}<br/>
           <i>{{ pub.venue }}
-          {% assign current_year = "now" | date: "%Y" %}
-          {% assign current_month = "now" | date: "%m" | plus: 0 %}
-          {% assign pub_month_int = pub.month | plus: 0 %}
-          {{ current_year }}
-          {{ current_month }}
-          <-- {% if pub.year < current_year or (pub.year == current_year and pub_month_int < current_month) %}
-            (to appear)
-          {% edif %} -->
           {%- if pub.venuenote %}
           ({{ pub.venuenote }})
           {%- endif -%}
