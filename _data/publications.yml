@@ -87,7 +87,7 @@ isca24dam.md:
     for time- multiplexing real hardware to simulate multiple virtual copies of
     the hardware using DAM.
     </p>"
-  venue: "Proceedings of the 50th Annual International Symposium on Computer Architecture"
+  venue: "Proceedings of the International Symposium on Computer Architecture"
   venuenote: "ISCA"
   year: 2024
   month: June
