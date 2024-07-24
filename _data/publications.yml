@@ -92,6 +92,7 @@ isca24dam.md:
   year: 2024
   month: June
   award: "ISCA Distinguished Artifact Award"
+  pdf: /publications/dam.pdf
   authors:
     - nathanzhang
     - lacouture
