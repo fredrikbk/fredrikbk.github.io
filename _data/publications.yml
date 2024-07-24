@@ -330,6 +330,7 @@ asplos2023b:
   venuenote: "ASPLOS"
   year: 2023
   month: April
+  pdf: /publications/baco.pdf
   authors:
     - hellsten
     - souza
