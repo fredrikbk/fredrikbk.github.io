@@ -133,6 +133,7 @@ pldi24:
   issue: PLDI 
   year: 2024
   month: June
+  pdf: /publications/general-workspaces.pdf
   authors:
     - genghan
     - hsu
@@ -205,6 +206,7 @@ hpca24:
   venuenote: "HPCA"
   year: 2024
   month: March
+  pdf: /publications/revet.pdf
   authors:
     - rucker
     - sundram
@@ -237,6 +239,7 @@ sc23-legate-sparse:
   venuenote: "SC"
   year: 2023
   month: November
+  pdf: /publications/legate-sparse.pdf
   authors:
     - yadav
     - lee
