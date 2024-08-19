@@ -57,6 +57,76 @@ oopsla24recurrences:
     - usman
     - kjolstad
 
+oopsla24shapes:
+  title: "Compilation of Shape Operators on Sparse Arrays"
+  abstract: "<p>
+    We show how to build a compiler for a sparse array language that supports
+    shape operators (e.g. reshaping or concatenating arrays) in addition to
+    compute operators. Existing sparse array programming systems implement
+    generic shape operators for only some sparse data structures, reduce shape
+    operators on other data structures to those, and do not support fusion. Our
+    system compiles sparse array expressions to code that efficiently iterates
+    over reshaped views of irregular sparse data structures, without needing to
+    materialize temporary storage for intermediates. Our evaluation shows that
+    our approach generates sparse array code competitive with popular sparse
+    array libraries: our generated shape operators achieve geometric mean
+    speed-ups ranging from 1.66x to 15.3x when compared to hand-written kernels
+    in scipy.sparse and 1.67x to 651x when compared to generic implementations
+    in pydata/sparse. For operators that require data structure conversions in
+    these libraries, our generated code achieves geometric mean speed ups
+    ranging from 7.29x to 13.0x when compared to scipy.sparse and 21.3x to 511x
+    when compared to pydata/sparse.  Finally, our evaluation also shows that
+    fusing shape and compute operators improves the performance of several
+    expressions (geometric means 1.22x-2.23x).
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 8
+  issue: OOPSLA
+  year: 2024
+  month: October
+  authors:
+    - ajroot
+    - bobbyyan
+    - peimingliu
+    - chrisgyurgyik
+    - bik
+    - kjolstad
+
+oopsla24convolutions:
+  title: "Compiler Support for Sparse Tensor Convolutions"
+  abstract: "<p>
+    This paper extends prior work on sparse-tensor algebra compilers to
+    generate asymptotically efficient code when sparse tensors are indexed by
+    compound affine subscript expressions. Our technique enables compiler
+    support for a wide range of sparse computations, including sparse
+    convolutions and pooling that are widely used in ML and graphics
+    applications. We propose an approach that gradually rewrites compound
+    subscript expressions to simple subscript expressions with loops that
+    exploit the sparsity pattern of the input sparse tensor. As a result, the
+    time complexity of the generated kernel is bounded by the number of stored
+    elements and not by the shape of the tensor. Our approach seamlessly
+    incorporates into existing frameworks and is compatible with all recent
+    advances in compilers for sparse computations, including the flexibility to
+    efficiently handle arbitrary combinations on different sparse tensor
+    formats. The implementation of our algorithm is open-sourced and upstreamed
+    to the MLIR sparse compiler. Experimental results show that the generated
+    code can outperform a dense implementation at about 80% sparsity and
+    achieves 19.5x speedup when compared with the state-of-the-art
+    compiler-based method at 99.9% sparsity.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 8
+  issue: OOPSLA
+  year: 2024
+  month: October
+  authors:
+    - peimingliu
+    - ajroot
+    - anlunxu
+    - yinyingli
+    - kjolstad
+    - bik
+
 isca24dam.md:
   title: "The Dataflow Abstract Machine Simulator Framework"
   abstract: "<p>
