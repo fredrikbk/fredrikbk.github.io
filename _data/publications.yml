@@ -227,7 +227,7 @@ vlsi24:
     with sparse libraries, and up to 76% and 85% lower EDP for image processing
     and ML, respectively, vs. Amber [1].
   </p>"
-  venue: "IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)"
+  venue: "IEEE Symposium on VLSI Technology and Circuits (VLSI)"
   year: 2024
   month: June
   authors:
