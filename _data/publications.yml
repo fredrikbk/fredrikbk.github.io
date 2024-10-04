@@ -84,6 +84,7 @@ oopsla24shapes:
   issue: OOPSLA
   year: 2024
   month: October
+  pdf: /publications/burrito.pdf
   authors:
     - ajroot
     - bobbyyan
@@ -119,6 +120,7 @@ oopsla24convolutions:
   issue: OOPSLA
   year: 2024
   month: October
+  pdf: /publications/spconv.pdf
   authors:
     - peimingliu
     - ajroot
