@@ -12,35 +12,20 @@ layout: home
 Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: Gates 486
+Office: CoDa 456
 <a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
 <a href="kjolstad-cv.pdf">CV</a>
 </td>
 </table>
 
+My group aims to make it easier to develop applications that are portable across different data representations and different machines. This work includes developing languages on collections of data (tensors, relations, graphs, and objects embedded in space) and developing meta-compilers that generates compilers for different languages and machines.
 
-I aim to make it easy to program sparse computing applications that can run
-everywhere with end-to-end performance that matches or exceeds the best
-hand-optimized codes.  A sparse application computes on a system where most
-parts do not interact—they are sparsely interconnected. Examples include sparse
-matrices, meshes, and graphical arrangements used to simulate the dynamics of
-robots, optimize the flow of traffic, compute the rank of web pages, estimate
-the similarity of genome loci, or train sparse deep neural networks.  Sparse
-computing is ubiquitous and will become increasingly important with the growth
-of robotic and autonomous vehicle applications, data analytics, and machine
-learning.
-
-I have developed the [taco compiler](http://tensor-compiler.org) for computing
-sparse tensor expressions and the [Simit programming
-language](http://simit-lang.org) for computing on sparse systems.  My broad
-research interests include compilers, programming models and languages,
-parallel computing, software engineering, and performance engineering.
+In particular, we have developed compilers for sparse tensor algebra and other array operations on sparse data, which lets us build tensor algebra and array libraries and languages that are polymorphic over different data structures. This work includes the TACO compiler, the Simit Programming Language, the Distal and Legate Sparse systems, the Sparse Abstract Machine, the Etch Indexed Stream compiler, the RECUMA recurrence compiler, and the Scorch sparse extension to the PyTorch library. We have also developed the Copy-and-Patch compiler technology that makes it possible to derive from LLVM a lightning fast online compiler that does not depend on LLVM.
 
 My thesis on <a href="/publications/kjolstad-thesis.pdf">Sparse
-Tensor Algebra Compilation</a> is the best place to start reading
+Tensor Algebra Compilation</a> is a good place to start reading
 about the ideas behind the tensor algebra compiler (taco) and
-sparse iteration model.
-
+sparse iteration model. 
 
 <h2 class="tableheading">PhD Students</h2>
 
