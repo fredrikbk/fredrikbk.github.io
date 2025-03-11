@@ -31,7 +31,6 @@ sparse iteration model.
 
 <ul>
   <li><a href="https://cs.stanford.edu/people/dongj/">James Dong</a></li>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia)</li>
   <li><a href="https://cgyurgyik.github.io">Christophe Gyurgyik</a></li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li><a href="https://cutfree.net/">Scott Kovach</a></li>
@@ -43,6 +42,10 @@ sparse iteration model.
   <li><a href="https://bobbyy.org/">Bobby Yan</a></li>
 </ul>
 
+<h2 class="tableheading">Alumni</h2>
+<ul>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia)</li>
+</ul>
 
 <h2 class="tableheading">Publications</h2>
 
