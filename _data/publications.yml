@@ -1,35 +1,33 @@
 ieeemicro24:
   title: "Designing Programmable Accelerators for Sparse Tensor Algebra"
-  abstract: "<p>
-    Recent research has focused on leveraging sparsity in hardware accelerators
-    to improve the efficiency of applications spanning scientific computing to
-    machine learning. Most such prior accelerators are fixed-function, which is
-    insufficient for two reasons. First, applications typically include both
-    dense and sparse components, and second, the algorithms that comprise these
-    applications are constantly evolving. To address these challenges, we
-    designed a programmable accelerator called Onyx for both sparse tensor
-    algebra and dense workloads. Onyx extends a coarse-grained reconfigurable
-    array (CGRA) optimized for dense applications with composable hardware
-    primitives to support arbitrary sparse tensor algebra kernels. In this
-    paper, we show that we can further optimize Onyx by adding a small set of
-    hardware features for parallelization that significantly increase both
-    temporal and spatial utilization of the CGRA, reducing runtime by up to
-    6.2×.
-    </p>"
-    venue: "IEEE Micro"
-    year: 2025
-    month: April
-    authors:
-      - koul
-      - xie
-      - strange
-      - ravipati
-      - bowuncheng
-      - hsu
-      - chen2
-      - horowitz
-      - kjolstad
-      - raina
+  abstract: "<p>Recent research has focused on leveraging sparsity in hardware
+  accelerators to improve the efficiency of applications spanning scientific
+  computing to machine learning. Most such prior accelerators are
+  fixed-function, which is insufficient for two reasons. First, applications
+  typically include both dense and sparse components, and second, the
+  algorithms that comprise these applications are constantly evolving. To
+  address these challenges, we designed a programmable accelerator called Onyx
+  for both sparse tensor algebra and dense workloads. Onyx extends a
+  coarse-grained reconfigurable array (CGRA) optimized for dense applications
+  with composable hardware primitives to support arbitrary sparse tensor
+  algebra kernels. In this paper, we show that we can further optimize Onyx by
+  adding a small set of hardware features for parallelization that
+  significantly increase both temporal and spatial utilization of the CGRA,
+  reducing runtime by up to 6.2×.</p>"
+  venue: "IEEE Micro"
+  year: 2025
+  month: April
+  authors:
+    - koul
+    - xie
+    - strange
+    - ravipati
+    - bowuncheng
+    - hsu
+    - chen2
+    - horowitz
+    - kjolstad
+    - raina
 
 asplos25-tracing:
   title: "Automatic Tracing in Task-Based Runtime Systems"
