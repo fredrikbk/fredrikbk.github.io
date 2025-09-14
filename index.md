@@ -14,7 +14,7 @@ Department of Computer Science<br/>
 Stanford University<br/>
 Office: CoDa 456
 <a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
-<a href="kjolstad-cv.pdf">CV</a>
+<a href="kjolstad_cv.pdf">CV</a>
 </td>
 </table>
 
