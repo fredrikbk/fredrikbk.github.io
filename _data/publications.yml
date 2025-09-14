@@ -1,3 +1,44 @@
+jssc25:
+  title: "Onyx: A 12-nm Programmable Accelerator for Dense and Sparse Applications"
+  abstract: "<p>Onyx is a system-on-chip (SoC) with a coarse-grained
+  reconfigurable array (CGRA) for accelerating sparse and dense tensor algebra
+  and dense image processing and machine learning (ML) applications. To support
+  multiple inputs, multiple dimensions, and fusion in sparse applications, Onyx
+  utilizes composable memory primitives that operate on compressed storage and
+  streams and compute primitives that eliminate unnecessary calculations. Onyx
+  also improves performance on dense applications with application-specialized
+  processing elements (PEs), area-optimized memory tiles, and hybrid clock
+  gating in the global buffer (GLB). Onyx achieves a peak energy efficiency of
+  756 INT16 GOPS/W, up to  better energy-delay product (EDP) for sparse kernels
+  versus CPUs with sparse libraries, and up to 76% and 85% lower EDP for image
+  processing and ML, respectively, versus the state-of-the-art CGRA.</p>"
+  venue: "IEEE Journal of Solid-State Circuits"
+  year: 2025
+  month: September
+  authors:
+    - koul
+    - hsu
+    - mei
+    - ravipati
+    - strange
+    - melchert
+    - carsello
+    - kong
+    - chen2
+    - ke
+    - zhang
+    - liu
+    - nyengele
+    - xie
+    - balasingam
+    - adivarahan
+    - sharma
+    - torng
+    - emer
+    - kjolstad
+    - horowitz
+    - raina
+
 ieeemicro24:
   title: "Designing Programmable Accelerators for Sparse Tensor Algebra"
   abstract: "<p>Recent research has focused on leveraging sparsity in hardware
