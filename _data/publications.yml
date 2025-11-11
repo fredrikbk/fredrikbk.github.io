@@ -1,3 +1,67 @@
+oopsla25:
+  title: "REPTILE: Performant Tiling of Recurrences"
+  abstract: "<p>We introduce REPTILE, a compiler that performs tiling
+  optimizations for programs expressed as mathematical recurrence equations.
+  REPTILE recursively decomposes a recurrence program into a set of unique
+  tiles and then simplifies each into a different set of recurrences. Given
+  declarative user specifications of recurrence equations, optimizations, and
+  optional mappings of recurrence subexpressions to external libraries calls,
+  REPTILE generates C code that composes compiler-generated loops with calls to
+  external hand-optimized libraries. We show that for direct linear solvers
+  expressible as recurrence equations, the generated C code matches and often
+  exceed the performance of standard hand-optimized libraries. We evaluate
+  REPTILE's generated C code against hand-optimized implementations of linear
+  solvers in Intel MKL, as well as two non-solver recurrences from
+  bioinformatics: Needleman-Wunsch and Smith-Waterman. When the user provides
+  good tiling specifications, REPTILE achieves parity with MKL, achieving between
+  0.79-1.27x speedup for the LU decomposition, 0.97-1.21x speedup for the
+  Cholesky decomposition, 1.61x-2.72x for lower triangular matrix inversion,
+  1.01-1.14x speedup for triangular solve with multiple right-hand sides, and
+  1.14-1.73x speedup over handwritten implementations of the bioinformatics
+  recurrences.</p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 9
+  issue: OOPSLA
+  year: 2025
+  month: October
+  authors:
+    - usman
+    - sundram
+    - kjolstad
+
+micro25:
+  title: "A Probabilistic Perspective on Tiling Sparse Tensor Algebra"
+  abstract: "<p>Sparse tensor algebra computations are often memory-bound due
+  to irregular access patterns and low arithmetic intensity. We present D2T2
+  (Data-Driven Tensor Tiling), a framework that optimizes static
+  coordinate-space tiling schemes to minimize memory traffic by identifying and
+  leveraging relevant high-level statistics from input operands. For a given
+  tensor algebra computation, D2T2 collects statistics from input tensors,
+  builds a probability distribution-based model of the tensor computation, and
+  uses it to predict traffic for various tiling configurations. It searches
+  over tile shape and size configurations to minimize total traffic. We
+  evaluate D2T2 against Tailors and DRT, two state of the art tiling schemes
+  for sparse tensor algebra. We find that D2T2 achieves, on average, a 2.54×
+  speedup over Tailors and a 1.13× lower memory bandwidth compared to DRT for
+  sparse-sparse matrix multiplication (SpMSpM). We also achieve 1.22–48.94×
+  lower bandwidth for SpMSpM and up to 34.31× lower bandwidth for tensor
+  operations (TTM and MTTKRP) than conservative static tiling schemes. Unlike
+  prior tiling techniques, D2T2 is deployable without specialized hardware
+  support. On Opal, a 16nm sparse tensor algebra accelerator, D2T2 generated
+  tiling configurations that achieve 1.23–3.34 × speedups compared to their
+  original hand-tuned configurations.</p>"
+  venue: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture"
+  year: 2025
+  month: October
+  authors:
+    - sharma
+    - zixue
+    - nathanzhang
+    - lacouture
+    - kjolstad
+    - saraachour
+    - horowitz
+
 jssc25:
   title: "Onyx: A 12-nm Programmable Accelerator for Dense and Sparse Applications"
   abstract: "<p>Onyx is a system-on-chip (SoC) with a coarse-grained
