@@ -1,3 +1,75 @@
+cgo26scorch:
+  title: "Ember: A Compiler for Embedding Operations on Decoupled Access-Execute Architectures"
+  abstract: "<p>
+    Decoupled Access-Execute (DAE) architectures sepa- rate memory accesses
+    from computation in two specialized units.  This design is becoming
+    increasingly popular among hyperscalers to accelerate irregular embedding
+    lookups in recommendation models. In this paper, we first broaden the scope
+    by demonstrating the benefits of DAE architectures across a wider range of
+    irregular embedding operations in several machine learning models. Then, we
+    propose the Ember compiler to automatically compile all of these embedding
+    operations to DAE architectures. Conversely from other DAE compilers, Ember
+    features multiple intermediate representations specifically designed for
+    different optimization levels. In this way, Ember can implement all
+    optimizations to match the performance of hand-written code, unlocking the
+    full potential of DAE architectures at scale.
+  </p>"
+  venue: "International Symposium on Code Generation and Optimization"
+  venuenote: "CGO"
+  year: 2026
+  month: February
+  authors:
+    - marcosiracusa
+    - oliviahsu
+    - victorsoriapardos
+    - joshuarandall
+    - arnaudgrasset
+    - ericbiscondi
+    - dougjoseph
+    - randyallen
+    - kjolstad
+    - miquelmoretoplanas
+    - adriaarmejach
+
+cgo26ember:
+  title: "Fast Autoscheduling for Sparse ML Frameworks"
+  abstract: "<p>
+    The rapid growth in the size of deep learning models strains the
+    capabilities of dense computation paradigms. Leveraging sparse computation
+    has become increasingly popular for training and deploying large-scale
+    models, but existing deep learning frameworks lack extensive support for
+    sparse operations. Current approaches either require manual scheduling
+    expertise or rely on exhaustive search taking hours to days, which are both
+    incompatible with the interactive development essential to machine learning
+    research. We present three algorithmic contributions that enable fast,
+    automatic optimization of sparse tensor computations. First, we develop a
+    heuristic-based loop ordering algorithm that avoids asymptotic performance
+    cliffs while compiling in milliseconds rather than hours. Second, we
+    introduce a tiling algorithm specialized for mixed sparse-dense
+    computations that achieves performance comparable to hand-optimized
+    kernels. Third, we present a format inference algorithm that automatically
+    selects appropriate sparse tensor formats for intermediate and output
+    tensors based on operation semantics. These algorithms are grounded in the
+    computational properties of sparse tensor algebra, making them predictable
+    and robust across diverse workloads. We implement these techniques in
+    Scorch, a prototype sparse tensor compiler for PyTorch that demonstrates
+    their practical effectiveness. With only minimal code changes, our approach
+    achieves 1.05-5.80x speedups over PyTorch Sparse on end-to-end tasks
+    including graph neural networks, sparse autoencoders, and sparse
+    transformers, with compilation times fast enough for interactive ML
+    development.
+  </p>"
+  venue: "International Symposium on Code Generation and Optimization"
+  venuenote: "CGO"
+  year: 2026
+  month: February
+  authors:
+    - bobbyyan
+    - ajroot
+    - trevorgale
+    - davidbroman
+    - kjolstad
+
 oopsla25:
   title: "REPTILE: Performant Tiling of Recurrences"
   abstract: "<p>We introduce REPTILE, a compiler that performs tiling
@@ -81,7 +153,7 @@ jssc25:
   month: September
   authors:
     - koul
-    - hsu
+    - oliviahsu
     - mei
     - ravipati
     - strange
@@ -128,7 +200,7 @@ ieeemicro24:
     - strange
     - ravipati
     - bowuncheng
-    - hsu
+    - oliviahsu
     - chen2
     - horowitz
     - kjolstad
@@ -222,7 +294,7 @@ cgo25stardust:
   year: 2025
   month: March
   authors:
-    - hsu
+    - oliviahsu
     - rucker
     - tianzhao
     - varundesai
@@ -413,7 +485,7 @@ pldi24:
   pdf: /publications/general-workspaces.pdf
   authors:
     - genghan
-    - hsu
+    - oliviahsu
     - kjolstad
 
 vlsi24:
@@ -441,7 +513,7 @@ vlsi24:
     - melchert 
     - carsello
     - mei
-    - hsu
+    - oliviahsu
     - kong
     - chen2
     - ke
@@ -583,7 +655,7 @@ pldi23-mosaic:
   pdf: /publications/mosaic.pdf
   authors:
     - bansal
-    - hsu
+    - oliviahsu
     - olukotun
     - kjolstad
 
@@ -613,7 +685,7 @@ asplos23-baco:
     - souza
     - lenfers
     - lacouture
-    - hsu
+    - oliviahsu
     - ejjeh
     - kjolstad
     - steuwer
@@ -644,7 +716,7 @@ asplos23-sam:
   movie: https://youtu.be/zCzZKWheizE?si=6jwUl0oVAT6ETJ6N&t=18
   embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/zCzZKWheizE?si=6jwUl0oVAT6ETJ6N&amp;start=18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   authors:
-    - hsu
+    - oliviahsu
     - strange
     - sharma 
     - won
@@ -989,7 +1061,7 @@ oopsla21array:
   year: 2021
   authors:
     - henry
-    - hsu
+    - oliviahsu
     - yadav
     - chou
     - olukotun

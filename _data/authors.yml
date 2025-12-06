@@ -1,3 +1,30 @@
+marcosiracusa:
+  name: Marco Siracusa
+
+victorsoriapardos:
+  name: Victor Soria-Pardos
+
+joshuarandall:
+  name: Joshua Randall
+
+arnaudgrasset:
+  name: Arnaud Grasset
+
+ericbiscondi:
+  name: Eric Biscondi
+
+dougjoseph:
+  name: Doug Joseph
+
+randyallen:
+  name: Randy Allen
+
+miquelmoretoplanas:
+  name: Miquel Moretó Planas
+
+adriaarmejach:
+  name: Adrià Armejach
+
 davidbroman:
   name: David Broman
 
@@ -15,6 +42,9 @@ anlunxu:
 
 yinyingli:
   name: Yinying Li
+
+trevorgale:
+  name: Trevor Gale
 
 ajroot:
   name: Alexander J Root
@@ -303,7 +333,7 @@ steuwer:
   name: Michel Steuwer
   site: https://michel.steuwer.info/
 
-hsu: 
+oliviahsu: 
   name: Olivia Hsu
   site: https://weiya711.github.io/
 
