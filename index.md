@@ -43,7 +43,7 @@ sparse iteration model.
 
 <h2 class="tableheading">Alumni</h2>
 <ul>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now at Google Deepmind.</li>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now research scientist at Google Deepmind.</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), now faculty at CMU.</li>
 </ul>
 
