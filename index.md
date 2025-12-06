@@ -32,7 +32,6 @@ sparse iteration model.
 <ul>
   <li><a href="https://cs.stanford.edu/people/dongj/">James Dong</a></li>
   <li><a href="https://cgyurgyik.github.io">Christophe Gyurgyik</a></li>
-  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun)</li>
   <li><a href="https://cutfree.net/">Scott Kovach</a></li>
   <li><a href="https://www.linkedin.com/in/lrubens">Rubens Lacouture</a> (with Kunle Olukotun)</li>
   <li><a href="https://rootjalex.github.io/">Alexander Root</a></li>
@@ -44,7 +43,8 @@ sparse iteration model.
 
 <h2 class="tableheading">Alumni</h2>
 <ul>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia)</li>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now at Google Deepmind</li>
+  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), now faculty at CMU</li>
 </ul>
 
 <h2 class="tableheading">Publications</h2>
