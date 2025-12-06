@@ -1,37 +1,4 @@
 cgo26scorch:
-  title: "Ember: A Compiler for Embedding Operations on Decoupled Access-Execute Architectures"
-  abstract: "<p>
-    Decoupled Access-Execute (DAE) architectures sepa- rate memory accesses
-    from computation in two specialized units.  This design is becoming
-    increasingly popular among hyperscalers to accelerate irregular embedding
-    lookups in recommendation models. In this paper, we first broaden the scope
-    by demonstrating the benefits of DAE architectures across a wider range of
-    irregular embedding operations in several machine learning models. Then, we
-    propose the Ember compiler to automatically compile all of these embedding
-    operations to DAE architectures. Conversely from other DAE compilers, Ember
-    features multiple intermediate representations specifically designed for
-    different optimization levels. In this way, Ember can implement all
-    optimizations to match the performance of hand-written code, unlocking the
-    full potential of DAE architectures at scale.
-  </p>"
-  venue: "International Symposium on Code Generation and Optimization"
-  venuenote: "CGO"
-  year: 2026
-  month: February
-  authors:
-    - marcosiracusa
-    - oliviahsu
-    - victorsoriapardos
-    - joshuarandall
-    - arnaudgrasset
-    - ericbiscondi
-    - dougjoseph
-    - randyallen
-    - kjolstad
-    - miquelmoretoplanas
-    - adriaarmejach
-
-cgo26ember:
   title: "Fast Autoscheduling for Sparse ML Frameworks"
   abstract: "<p>
     The rapid growth in the size of deep learning models strains the
@@ -69,6 +36,39 @@ cgo26ember:
     - trevorgale
     - davidbroman
     - kjolstad
+
+cgo26ember:
+  title: "Ember: A Compiler for Embedding Operations on Decoupled Access-Execute Architectures"
+  abstract: "<p>
+    Decoupled Access-Execute (DAE) architectures sepa- rate memory accesses
+    from computation in two specialized units.  This design is becoming
+    increasingly popular among hyperscalers to accelerate irregular embedding
+    lookups in recommendation models. In this paper, we first broaden the scope
+    by demonstrating the benefits of DAE architectures across a wider range of
+    irregular embedding operations in several machine learning models. Then, we
+    propose the Ember compiler to automatically compile all of these embedding
+    operations to DAE architectures. Conversely from other DAE compilers, Ember
+    features multiple intermediate representations specifically designed for
+    different optimization levels. In this way, Ember can implement all
+    optimizations to match the performance of hand-written code, unlocking the
+    full potential of DAE architectures at scale.
+  </p>"
+  venue: "International Symposium on Code Generation and Optimization"
+  venuenote: "CGO"
+  year: 2026
+  month: February
+  authors:
+    - marcosiracusa
+    - oliviahsu
+    - victorsoriapardos
+    - joshuarandall
+    - arnaudgrasset
+    - ericbiscondi
+    - dougjoseph
+    - randyallen
+    - kjolstad
+    - miquelmoretoplanas
+    - adriaarmejach
 
 oopsla25:
   title: "REPTILE: Performant Tiling of Recurrences"
