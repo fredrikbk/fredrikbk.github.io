@@ -96,6 +96,7 @@ oopsla25:
   issue: OOPSLA
   year: 2025
   month: October
+  pdf: publications/recurrences-tiling.pdf
   authors:
     - usman
     - sundram
