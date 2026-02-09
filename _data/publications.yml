@@ -297,6 +297,7 @@ cgo25stardust:
   venuenote: "CGO"
   year: 2025
   month: March
+  pdf: publications/stardust-compiling-ta-to-rdas.pdf
   authors:
     - oliviahsu
     - rucker
