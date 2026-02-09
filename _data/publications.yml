@@ -126,6 +126,7 @@ micro25:
   venue: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture"
   year: 2025
   month: October
+  pdf: publications/probabilistic-tiling.pdf
   authors:
     - sharma
     - zixue
@@ -234,6 +235,7 @@ asplos25-tracing:
   venuenote: "ASPLOS"
   year: 2025
   month: April
+  pdf: publications/automatic-task-tracing.pdf
   authors:
     - yadav
     - bauer
@@ -265,6 +267,7 @@ asplos25-fusion:
   venuenote: "ASPLOS"
   year: 2025
   month: April
+  pdf: publications/automatic-task-and-kernel-fusion.pdf
   authors:
     - yadav
     - sundram
