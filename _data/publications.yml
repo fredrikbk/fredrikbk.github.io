@@ -83,6 +83,7 @@ cgo26scorch:
     - trevorgale
     - davidbroman
     - kjolstad
+  pdf: /publications/scorch.pdf
 
 cgo26ember:
   title: "Ember: A Compiler for Embedding Operations on Decoupled Access-Execute Architectures"
