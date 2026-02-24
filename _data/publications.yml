@@ -1041,6 +1041,9 @@ pldi22-autoscheduling:
     - kjolstad
     - amarasinghe
   pdf: /publications/asymptotic-autoscheduling.pdf
+  movie: https://youtu.be/a5IaZjkKBRA
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/eE38PC2ctFs" frameborder="0" allow="autoplay;         encrypted-media" allowfullscreen></iframe>
+  embeddedmovie: <iframe width="560" height="315" src="https://www.youtube.com/embed/a5IaZjkKBRA" frameborder="0" allow=" autoplay; encrypted-media" allowfullscreen></iframe>
 
 copy-and-patch:
   title: Copy-and-Patch Compilation
