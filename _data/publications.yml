@@ -1,4 +1,4 @@
-deegen:
+oopsla26deegen:
   title: "Deegen: A JIT-Capable VM Generator for Dynamic Languages"
   abstract: "<p>
     Building a high-performance JIT-capable VM for a dynamic language has
@@ -117,6 +117,7 @@ cgo26ember:
     - kjolstad
     - miquelmoretoplanas
     - adriaarmejach
+  pdf: /publications/ember.pdf
 
 oopsla25:
   title: "REPTILE: Performant Tiling of Recurrences"
