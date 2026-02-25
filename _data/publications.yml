@@ -68,6 +68,7 @@ asplos2026fuseflow:
     </p>"
   venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
+  month: March
   pdf: /publications/fuseflow.pdf
   authors:
     - lacouture
