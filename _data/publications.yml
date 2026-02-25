@@ -66,7 +66,7 @@ asplos2026fuseflow:
     achieve performance improvements, including a ∼2.7x speedup over an unfused
     baseline for GPT-3 with BigBird block-sparse attention.
     </p>"
-  venue: "to appear in International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
   year: 2026
   month: March
   pdf: /publications/fuseflow.pdf
