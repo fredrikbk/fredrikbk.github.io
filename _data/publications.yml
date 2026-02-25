@@ -856,7 +856,7 @@ cgo23:
   month: February
   pdf: /publications/looplets.pdf
   authors:
-    - willow
+    - ahrens 
     - donenfeld
     - kjolstad
     - amarasinghe
