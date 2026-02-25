@@ -12,7 +12,7 @@ layout: home
 Assistant Professor<br/>
 Department of Computer Science<br/>
 Stanford University<br/>
-Office: CoDa 456
+Office: CoDa E456
 <a href="mailto:kjolstad@stanford.edu">kjolstad@stanford.edu</a><br/>
 <a href="kjolstad_cv.pdf">CV</a>
 </td>
