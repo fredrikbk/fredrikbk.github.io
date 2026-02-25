@@ -71,12 +71,12 @@ asplos2026fuseflow:
   pdf: /publications/fuseflow.pdf
   authors:
     - lacouture
-    - zhang-nathan
+    - nathanzhang
     - sharma
-    - siracusa-marco
+    - marcosiracusa
     - kjolstad
     - olukotun
-    - hsu
+    - oliviahsu
 
 cgo26scorch:
   title: "Fast Autoscheduling for Sparse ML Frameworks"
