@@ -34,6 +34,7 @@ sparse iteration model.
   <li><a href="https://cgyurgyik.github.io">Christophe Gyurgyik</a></li>
   <li><a href="https://cutfree.net/">Scott Kovach</a></li>
   <li><a href="https://www.linkedin.com/in/lrubens">Rubens Lacouture</a> (with Kunle Olukotun)</li>
+  <li><a href="[https://www.linkedin.com/in/lrubens](https://scholar.google.com/citations?user=SFZbCC0AAAAJ&hl=en)">Sai Gautham Ravipati</a> (with Priyanka Raina)</li>
   <li><a href="https://rootjalex.github.io/">Alexander Root</a></li>
   <li><a href="https://shivsundram.github.io/">Shiv Sundram</a></li>
   <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
