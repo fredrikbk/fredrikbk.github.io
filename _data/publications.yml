@@ -122,6 +122,7 @@ osdi26twill:
     </p>"
   venue: Proceedings of the Symposium on Operating System Design and Implementation
   venuenote: OSDI
+  year: 2026
   month: July
   pdf: /publications/twill.pdf
   authors:
