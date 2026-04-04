@@ -1,3 +1,9 @@
+rupanshusoi:
+  name: Rupanshu Soi
+
+maryamdehnavi:
+  name: Maryam Dehnavi
+
 marcosiracusa:
   name: Marco Siracusa
 
@@ -39,6 +45,15 @@ peimingliu:
 
 anlunxu:
   name: Anlun Xu
+
+jamesdong:
+  name: James Dong
+
+chrisgyurgyik:
+  name: Christophe Gyurgyik
+
+purvigoel:
+  name: Purvi Goel
 
 yinyingli:
   name: Yinying Li
@@ -152,6 +167,9 @@ kamil:
 ragan-kelley:
   name: Jonathan Ragan-Kelley
   site: http://people.csail.mit.edu/jrk/
+
+andrewadams:
+  name: Andrew Adams
 
 levin:
   name: David I. W. Levin

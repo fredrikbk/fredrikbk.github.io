@@ -1,3 +1,138 @@
+pldi26relations:
+  title: "A Compiler for Fused Relational Operations on Multisets"
+  abstract: "<p>
+    We describe a comprehensive compilation approach for relational algebra,
+    centered on an abstract loop-based intermediate representation (IR) that
+    can express fused implementations of relational algebra operators on both
+    sets and multisets. The loops are abstracted away from physical data
+    structures thus making it easier to optimize. We show how to lower
+    relational algebra query plan trees to the IR, including the complex
+    operators that are used in production database systems, such as outer
+    joins, non-equi joins, and differences. We then show how to compile this IR
+    to efficient C++ code that co-iterates over the physical data structures
+    present in relational algebra expressions. Finally, we show that our
+    approach is portable across data structures. Since our approach can fuse
+    across disparate operators, it achieves a 3.8x speedup (0.8--12.1x)
+    compared to Hyper on selected LSQB benchmarks and worst-case optimal
+    triangle queries. Our compiler also generates code of high quality: it has
+    similar sequential performance to Hyper on TPC-H with a 1.0x speedup
+    (0.4--4.3x) and is approaching their parallel performance with a 0.6x
+    speedup (0.2--1.8x).
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 10
+  issue: PLDI
+  year: 2026
+  month: June
+  authors:
+    - jamesdong
+    - kjolstad
+
+pldi26bonsai:
+  title: "Bonsai: Compiling Queries to Pruned Tree Traversals"
+  abstract: "<p>
+    Trees can accelerate queries that search or aggregate values over large
+    collections. They achieve this by storing metadata that enables quick
+    pruning (or inclusion) of subtrees when predicates on that metadata can
+    prove that none (or all) of the data in a subtree affect the query result.
+    Existing systems implement this pruning logic manually for each query
+    predicate and data structure. We generalize and mechanize this class of
+    optimization. Our method derives conditions for when subtrees can be pruned
+    (or included wholesale), expressed in terms of the metadata available at
+    each node. We efficiently generate these conditions using symbolic interval
+    analysis, extended with new rules to handle geometric predicates (e.g.,
+    intersection, containment). Additionally, our compiler fuses compound
+    queries (e.g., reductions on filters) into a single tree traversal. These
+    techniques enable the automatic derivation of generalized single-index and
+    dual-index tree joins that support a wide class of join predicates beyond
+    standard equality and range predicates. The generated traversals match the
+    behavior of expert-written code that implements query-specific traversals,
+    and can asymptotically outperform the linear scans and nested-loop joins
+    that existing systems fall back to when hand-written cases do not apply.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 10
+  issue: PLDI
+  year: 2026
+  month: June
+  authors:
+    - rootjalex
+    - chrisgyurgyik
+    - purvigoel
+    - fatahalian
+    - ragan-kelley
+    - andrewadams 
+    - kjolstad
+
+pldi26scion:
+  title: "Decoupling Data Layouts from Bounding Volume Hierarchies"
+  abstract: "<p>
+    Bounding volume hierarchies are ubiquitous acceleration structures in
+    graphics, scientific computing, and data analytics. Their performance
+    depends critically on data layout choices that affect cache utilization,
+    memory bandwidth, and vectorization---increasingly dominant factors in
+    modern computing. Yet, in most programming systems, these layout choices
+    are hopelessly entangled with the traversal logic. This entanglement
+    prevents developers from independently optimizing data layouts and
+    algorithms across different contexts, perpetuating a false dichotomy
+    between performance and portability. We introduce Scion, a domain-specific
+    language and compiler for specifying the data layouts of bounding volume
+    hierarchies independent of tree traversal algorithms. We show that Scion
+    can express a broad spectrum of layout optimizations used in high
+    performance computing while remaining architecture-agnostic. We demonstrate
+    empirically that Pareto-optimal layouts (along performance and memory
+    footprint axes) vary across algorithms, architectures, and workload
+    characteristics. Through systematic design exploration, we also identify a
+    novel ray tracing layout that combines optimization techniques from prior
+    work, achieving Pareto-optimality across diverse architectures and scenes.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 10
+  issue: PLDI
+  year: 2026
+  month: June
+  authors:
+    - chrisgyurgyik
+    - rootjalex
+    - kjolstad
+
+osdi26twill:
+  title: "Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs"
+  abstract: "<p>
+    GPU architectures have continued to grow in complexity, with recent
+    incarnations introducing increasingly powerful fixed-function units for
+    matrix multiplication and data move- ment to accompany highly parallel
+    general-purpose cores. To fully leverage these machines, software must use
+    sophisti- cated schedules that maximally utilize all hardware resources.
+    Since realizing such schedules is complex, both programmers and compilers
+    routinely employ program transformations, such as software pipelining (SWP)
+    and warp specialization (WS), to do so in practice. However, determining
+    how best to use SWP and WS in combination is a challenging problem that is
+    currently handled through a mix of brittle compilation heuristics and
+    fallible human intuition, with little insight into the space of solutions.
+    To remedy this situation, we introduce a novel formulation of SWP and WS as
+    a joint optimization problem that can be solved holistically by
+    off-the-shelf con- straint solvers. We reify our approach in Twill, the
+    first system that automatically derives optimal SWP and WS schedules for a
+    large class of iterative programs. Twill is heuristic-free, easily
+    extensible to new GPU architectures, and guaranteed to produce optimal
+    schedules. We show that Twill can redis- cover, and thereby prove optimal,
+    the SWP and WS schedules manually developed by experts for Flash Attention
+    on both the NVIDIA Hopper and Blackwell GPU architectures.
+    </p>"
+  venue: Proceedings of the Symposium on Operating System Design and Implementation
+  venuenote: OSDI
+  month: July
+  pdf: /publications/twill.pdf
+  authors:
+    - rupanshusoi
+    - yadav
+    - kjolstad
+    - aiken
+    - maryamdehnavi 
+    - garland
+    - bauer
+
 oopsla26deegen:
   title: "Deegen: A JIT-Capable VM Generator for Dynamic Languages"
   abstract: "<p>
@@ -40,10 +175,10 @@ oopsla26deegen:
   issue: OOPSLA
   year: 2026
   month: October
+  pdf: /publications/deegen.pdf
   authors:
     - xu
     - kjolstad
-  pdf: /publications/deegen.pdf
 
 asplos2026fuseflow:
   title: "FuseFlow: A Fusion-Centric Compilation Framework for Sparse Deep Learning on Streaming Dataflow"
@@ -206,7 +341,7 @@ micro25:
   support. On Opal, a 16nm sparse tensor algebra accelerator, D2T2 generated
   tiling configurations that achieve 1.23–3.34 × speedups compared to their
   original hand-tuned configurations.</p>"
-  venue: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture"
+  venue: "Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture (MICRO)"
   year: 2025
   month: October
   pdf: publications/probabilistic-tiling.pdf
