@@ -57,6 +57,7 @@ pldi26bonsai:
   year: 2026
   month: June
   pdf: /publications/bonsai.pdf
+  award: "Distinguished Paper Award"
   authors:
     - ajroot
     - chrisgyurgyik
