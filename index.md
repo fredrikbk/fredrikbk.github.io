@@ -120,7 +120,7 @@ sparse iteration model.
           (to appear)
           {%- endif -%}
           {%- if pub.award -%}
-            <i><b>{{ pub.award }}</b></i><br/>
+            <i><b> {{ pub.award }}</b></i><br/>
           {%- endif -%}
         </td>
         <td valign="top" width="20">
