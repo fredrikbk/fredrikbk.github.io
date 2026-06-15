@@ -38,14 +38,14 @@ sparse iteration model.
   <li><a href="https://rootjalex.github.io/">Alexander Root</a></li>
   <li><a href="https://shivsundram.github.io/">Shiv Sundram</a></li>
   <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
-  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
   <li><a href="https://bobbyy.org/">Bobby Yan</a></li>
 </ul>
 
 <h2 class="tableheading">Alumni</h2>
 <ul>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now research scientist at Google Deepmind.</li>
+  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
   <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), now faculty at CMU.</li>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now research scientist at Google Deepmind.</li>
 </ul>
 
 <h2 class="tableheading">Publications</h2>
