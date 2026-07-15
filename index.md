@@ -44,9 +44,9 @@ sparse iteration model.
 
 <h2 class="tableheading">Alumni</h2>
 <ul>
-  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken), now at Anthropic</li>
-  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), now faculty at CMU.</li>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now research scientist at Google Deepmind.</li>
+  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken), Anthropic</li>
+  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), assistant professor, CMU.</li>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), Google Deepmind.</li>
 </ul>
 
 <h2 class="tableheading">Publications</h2>
