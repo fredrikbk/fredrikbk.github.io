@@ -32,20 +32,21 @@ sparse iteration model.
 <ul>
   <li><a href="https://cs.stanford.edu/people/dongj/">James Dong</a></li>
   <li><a href="https://cgyurgyik.github.io">Christophe Gyurgyik</a></li>
-  <li><a href="https://cutfree.net/">Scott Kovach</a></li>
   <li><a href="https://www.linkedin.com/in/lrubens">Rubens Lacouture</a> (with Kunle Olukotun)</li>
-  <li><a href="[https://www.linkedin.com/in/lrubens](https://scholar.google.com/citations?user=SFZbCC0AAAAJ&hl=en)">Sai Gautham Ravipati</a> (with Priyanka Raina)</li>
-  <li><a href="https://rootjalex.github.io/">Alexander Root</a></li>
+  <li><a href="http://cs.stanford.edu/~kmohr/">Katherine Mohr</a> (with Keith Winstein)</li>
+  <li><a href="https://scholar.google.com/citations?user=SFZbCC0AAAAJ&hl=en">Sai Gautham Ravipati</a> (with Priyanka Raina)</li>
+  <li><a href="https://ajroot.pl/">Alexander Root</a></li>
   <li><a href="https://shivsundram.github.io/">Shiv Sundram</a></li>
   <li><a href="https://sillycross.github.io/about/">Haoran Xu</a></li>
-  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken)</li>
   <li><a href="https://bobbyy.org/">Bobby Yan</a></li>
 </ul>
 
 <h2 class="tableheading">Alumni</h2>
 <ul>
-  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), now research scientist at Google Deepmind.</li>
-  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), now faculty at CMU.</li>
+  <li><a href="https://cutfree.net/">Scott Kovach</a></li>
+  <li><a href="https://rohany.github.io/">Rohan Yadav</a> (with Alex Aiken), Anthropic</li>
+  <li><a href="https://weiya711.github.io/">Olivia Hsu</a> (with Kunle Olukotun), assistant professor, CMU.</li>
+  <li><a href="https://www.linkedin.com/in/trevorgale/">Trevor Gale</a> (with Matei Zaharia), Google Deepmind.</li>
 </ul>
 
 <h2 class="tableheading">Publications</h2>
