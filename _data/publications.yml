@@ -1,3 +1,33 @@
+asplos27nachos:
+  title: "Partitioning Unstructured Sparse Tensor Algebra for Load-Balanced Parallel Execution"
+  abstract: "<p>
+    Sparse tensor algebra is challenging to efficiently parallelize due to the
+    irregular, data-dependent, and potentially skewed structure of sparse
+    computation. We propose the first partitioning algorithm that provably load
+    balances the computation of any sparse tensor algebra expression across
+    parallel execution units. Our algorithm generalizes parallel merging
+    algorithms to any number of operands, and to multi-dimensional,
+    hierarchical sparse data structures. We implement our algorithm within an
+    existing sparse tensor algebra compilation framework to automatically
+    generate parallel sparse tensor algebra kernels that target multi-core CPUs
+    and GPUs. We show that our generated code is competitive with
+    hand-implemented parallelization strategies used by vendor libraries like
+    Intel MKL and NVIDIA cuSPARSE (geo-means of 0.93-5.5×) and taco
+    (geo-means of 1.2-2.4×), and significantly outperforms PyTorch Sparse's
+    general-purpose strategies on sparse tensor expressions where specialized
+    algorithms have not been developed (geo-means of 2.0-9.1×).
+  </p>"
+  venue: "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2027
+  month: April
+  authors:
+    - chougule
+    - rootjalex
+    - lacouture
+    - bobbyyan
+    - yadav
+    - kjolstad
+
 pldi26relations:
   title: "A Compiler for Fused Relational Operations on Multisets"
   abstract: "<p>
@@ -183,6 +213,38 @@ oopsla26deegen:
   pdf: /publications/deegen.pdf
   authors:
     - xu
+    - kjolstad
+
+oopsla26filtr:
+  title: "Filtr: Compiling Bioinformatics Recurrences"
+  abstract: "<p>
+    Many bioinformatics algorithms, such as sequence alignment and structure
+    prediction, can be expressed as recurrence equations over a dynamic
+    programming matrix. Efficient implementations of these algorithms for
+    large-scale biological data often require changing the order in which
+    matrix cells are calculated and pruning ineffectual regions of the matrix
+    from consideration altogether, but these techniques typically complicate
+    implementation. We introduce Filtr, a domain-specific language (DSL) and
+    compiler framework for bioinformatics recurrences. Filtr keeps the core
+    recurrence rules separate from the pruning and scheduling strategies, where
+    pruning acts as an approximation to limit where in the DP matrix cells are
+    computed, and scheduling determines the iteration order for how cells are
+    explored. Filtr compiles these high-level descriptions into optimized C++
+    code that matches the performance of hand-tuned implementations while
+    enabling rapid exploration of new heuristics. Filtr is competitive with
+    hand-optimized sequence-alignment libraries, ranging from 0.95× to 30×
+    faster across biological benchmarks.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 10
+  issue: OOPSLA
+  year: 2026
+  month: October
+  pdf: /publications/filtr.pdf
+  authors:
+    - vinaithirthan 
+    - sundram
+    - goenka
     - kjolstad
 
 asplos2026fuseflow:
