@@ -28,6 +28,76 @@ asplos27nachos:
     - yadav
     - kjolstad
 
+oopsla26filtr:
+  title: "Filtr: Compiling Bioinformatics Recurrences"
+  abstract: "<p>
+    Many bioinformatics algorithms, such as sequence alignment and structure
+    prediction, can be expressed as recurrence equations over a dynamic
+    programming matrix. Efficient implementations of these algorithms for
+    large-scale biological data often require changing the order in which
+    matrix cells are calculated and pruning ineffectual regions of the matrix
+    from consideration altogether, but these techniques typically complicate
+    implementation. We introduce Filtr, a domain-specific language (DSL) and
+    compiler framework for bioinformatics recurrences. Filtr keeps the core
+    recurrence rules separate from the pruning and scheduling strategies, where
+    pruning acts as an approximation to limit where in the DP matrix cells are
+    computed, and scheduling determines the iteration order for how cells are
+    explored. Filtr compiles these high-level descriptions into optimized C++
+    code that matches the performance of hand-tuned implementations while
+    enabling rapid exploration of new heuristics. Filtr is competitive with
+    hand-optimized sequence-alignment libraries, ranging from 0.95× to 30×
+    faster across biological benchmarks.
+    </p>"
+  venue: "Proceedings of the ACM on Programming Languages"
+  volume: 10
+  issue: OOPSLA2
+  year: 2026
+  month: October
+  pdf: /publications/filtr.pdf
+  authors:
+    - vinaithirthan
+    - sundram
+    - goenka
+    - kjolstad
+
+osdi26twill:
+  title: "Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs"
+  abstract: "<p>
+    GPU architectures have continued to grow in complexity, with recent
+    incarnations introducing increasingly powerful fixed-function units for
+    matrix multiplication and data move- ment to accompany highly parallel
+    general-purpose cores. To fully leverage these machines, software must use
+    sophisti- cated schedules that maximally utilize all hardware resources.
+    Since realizing such schedules is complex, both programmers and compilers
+    routinely employ program transformations, such as software pipelining (SWP)
+    and warp specialization (WS), to do so in practice. However, determining
+    how best to use SWP and WS in combination is a challenging problem that is
+    currently handled through a mix of brittle compilation heuristics and
+    fallible human intuition, with little insight into the space of solutions.
+    To remedy this situation, we introduce a novel formulation of SWP and WS as
+    a joint optimization problem that can be solved holistically by
+    off-the-shelf con- straint solvers. We reify our approach in Twill, the
+    first system that automatically derives optimal SWP and WS schedules for a
+    large class of iterative programs. Twill is heuristic-free, easily
+    extensible to new GPU architectures, and guaranteed to produce optimal
+    schedules. We show that Twill can redis- cover, and thereby prove optimal,
+    the SWP and WS schedules manually developed by experts for Flash Attention
+    on both the NVIDIA Hopper and Blackwell GPU architectures.
+    </p>"
+  venue: Proceedings of the Symposium on Operating System Design and Implementation
+  venuenote: OSDI
+  year: 2026
+  month: July
+  pdf: /publications/twill.pdf
+  authors:
+    - rupanshusoi
+    - yadav
+    - kjolstad
+    - aiken
+    - maryamdehnavi
+    - garland
+    - bauer
+
 pldi26relations:
   title: "A Compiler for Fused Relational Operations on Multisets"
   abstract: "<p>
@@ -130,44 +200,6 @@ pldi26scion:
     - ajroot
     - kjolstad
 
-osdi26twill:
-  title: "Optimal Software Pipelining and Warp Specialization for Tensor Core GPUs"
-  abstract: "<p>
-    GPU architectures have continued to grow in complexity, with recent
-    incarnations introducing increasingly powerful fixed-function units for
-    matrix multiplication and data move- ment to accompany highly parallel
-    general-purpose cores. To fully leverage these machines, software must use
-    sophisti- cated schedules that maximally utilize all hardware resources.
-    Since realizing such schedules is complex, both programmers and compilers
-    routinely employ program transformations, such as software pipelining (SWP)
-    and warp specialization (WS), to do so in practice. However, determining
-    how best to use SWP and WS in combination is a challenging problem that is
-    currently handled through a mix of brittle compilation heuristics and
-    fallible human intuition, with little insight into the space of solutions.
-    To remedy this situation, we introduce a novel formulation of SWP and WS as
-    a joint optimization problem that can be solved holistically by
-    off-the-shelf con- straint solvers. We reify our approach in Twill, the
-    first system that automatically derives optimal SWP and WS schedules for a
-    large class of iterative programs. Twill is heuristic-free, easily
-    extensible to new GPU architectures, and guaranteed to produce optimal
-    schedules. We show that Twill can redis- cover, and thereby prove optimal,
-    the SWP and WS schedules manually developed by experts for Flash Attention
-    on both the NVIDIA Hopper and Blackwell GPU architectures.
-    </p>"
-  venue: Proceedings of the Symposium on Operating System Design and Implementation
-  venuenote: OSDI
-  year: 2026
-  month: July
-  pdf: /publications/twill.pdf
-  authors:
-    - rupanshusoi
-    - yadav
-    - kjolstad
-    - aiken
-    - maryamdehnavi 
-    - garland
-    - bauer
-
 oopsla26deegen:
   title: "Deegen: A JIT-Capable VM Generator for Dynamic Languages"
   abstract: "<p>
@@ -207,44 +239,12 @@ oopsla26deegen:
     </p>"
   venue: "Proceedings of the ACM on Programming Languages"
   volume: 10
-  issue: OOPSLA
+  issue: OOPSLA1
   year: 2026
-  month: October
+  month: April
   pdf: /publications/deegen.pdf
   authors:
     - xu
-    - kjolstad
-
-oopsla26filtr:
-  title: "Filtr: Compiling Bioinformatics Recurrences"
-  abstract: "<p>
-    Many bioinformatics algorithms, such as sequence alignment and structure
-    prediction, can be expressed as recurrence equations over a dynamic
-    programming matrix. Efficient implementations of these algorithms for
-    large-scale biological data often require changing the order in which
-    matrix cells are calculated and pruning ineffectual regions of the matrix
-    from consideration altogether, but these techniques typically complicate
-    implementation. We introduce Filtr, a domain-specific language (DSL) and
-    compiler framework for bioinformatics recurrences. Filtr keeps the core
-    recurrence rules separate from the pruning and scheduling strategies, where
-    pruning acts as an approximation to limit where in the DP matrix cells are
-    computed, and scheduling determines the iteration order for how cells are
-    explored. Filtr compiles these high-level descriptions into optimized C++
-    code that matches the performance of hand-tuned implementations while
-    enabling rapid exploration of new heuristics. Filtr is competitive with
-    hand-optimized sequence-alignment libraries, ranging from 0.95× to 30×
-    faster across biological benchmarks.
-    </p>"
-  venue: "Proceedings of the ACM on Programming Languages"
-  volume: 10
-  issue: OOPSLA
-  year: 2026
-  month: October
-  pdf: /publications/filtr.pdf
-  authors:
-    - vinaithirthan 
-    - sundram
-    - goenka
     - kjolstad
 
 asplos2026fuseflow:
